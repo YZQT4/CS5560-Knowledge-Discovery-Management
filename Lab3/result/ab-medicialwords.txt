@@ -1,0 +1,957 @@
+"C:\Program Files\Java\jdk1.8.0_181\bin\java.exe" "-javaagent:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2018.2.2\lib\idea_rt.jar=13041:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2018.2.2\bin" -Dfile.encoding=UTF-8 -classpath "C:\Program Files\Java\jdk1.8.0_181\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\deploy.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\ext\access-bridge-64.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\ext\cldrdata.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\ext\dnsns.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\ext\jaccess.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\ext\jfxrt.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\ext\localedata.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\ext\nashorn.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\ext\sunec.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\ext\sunjce_provider.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\ext\sunmscapi.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\ext\sunpkcs11.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\ext\zipfs.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\javaws.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\jfxswt.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\management-agent.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\plugin.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\rt.jar;C:\Users\62752\IdeaProjects\ICP3\Tutorial 3 Source Code\NCBO_BioNLP\target\scala-2.12\classes;C:\Users\62752\.sbt\boot\scala-2.12.6\lib\scala-library.jar" RESTClientGet BioConcept examples_data/ex.pmid PubTator
+30166985|t|The CAIRR Pipeline for Submitting Standards-Compliant B and T Cell Receptor Repertoire Sequencing Studies to the National Center for Biotechnology Information Repositories.
+30166985|a|The adaptation of high-throughput sequencing to the B cell receptor and T cell receptor has made it possible to characterize the adaptive immune receptor repertoire (AIRR) at unprecedented depth. These AIRR sequencing (AIRR-seq) studies offer tremendous potential to increase the understanding of adaptive immune responses in vaccinology, infectious disease, autoimmunity, and cancer. The increasingly wide application of AIRR-seq is leading to a critical mass of studies being deposited in the public domain, offering the possibility of novel scientific insights through secondary analyses and meta-analyses. However, effective sharing of these large-scale data remains a challenge. The AIRR community has proposed minimal information about adaptive immune receptor repertoire (MiAIRR), a standard for reporting AIRR-seq studies. The MiAIRR standard has been operationalized using the National Center for Biotechnology Information (NCBI) repositories. Submissions of AIRR-seq data to the NCBI repositories typically use a combination of web-based and flat-file templates and include only a minimal amount of terminology validation. As a result, AIRR-seq studies at the NCBI are often described using inconsistent terminologies, limiting scientists' ability to access, find, interoperate, and reuse the data sets. In order to improve metadata quality and ease submission of AIRR-seq studies to the NCBI, we have leveraged the software framework developed by the Center for Expanded Data Annotation and Retrieval (CEDAR), which develops technologies involving the use of data standards and ontologies to improve metadata quality. The resulting CEDAR-AIRR (CAIRR) pipeline enables data submitters to: (i) create web-based templates whose entries are controlled by ontology terms, (ii) generate and validate metadata, and (iii) submit the ontology-linked metadata and sequence files (FASTQ) to the NCBI BioProject, BioSample, and Sequence Read Archive databases. Overall, CAIRR provides a web-based metadata submission interface that supports compliance with the MiAIRR standard. This pipeline is available at http://cairr.miairr.org, and will facilitate the NCBI submission process and improve the metadata quality of AIRR-seq studies.
+30166985	512	530	infectious disease	Disease	D003141
+30166985	532	544	autoimmunity	Disease	D001327
+30166985	550	556	cancer	Disease	D009369
+
+abstract1
+Medicial words:6
+30003044|t|Crohn's disease patient serum changes protein expression in a human mesenchymal stem cell model in a linear relationship to patients' disease stage and to bone mineral density.
+30003044|a|Background: Crohn's disease (CD) is associated with a higher prevalence of osteoporosis, a complication that is recognized as a significant cause of morbidity. Its pathogenesis is controversial, but the activity of CD is one contributing factor. Methods: We stimulated SCP-1 cells (mesenchymal stem cell line) under osteogenic conditions with serum from adult patients with CD in the symptomatic phase (SP) and in remission (R) and with control sera. Concentrations of IL-6, IL-1 beta, and TNF alpha in the sera were measured. Patients were classified as normal or osteopenic/osteoporotic based on bone mineral density (BMD) T-score measurements. After 14   days in culture, protein expression and gene ontology (GO) annotation analysis was performed. Results: Cytokine concentrations (IL-6, IL-1 beta, TNF alpha) varied within sera groups. None of the cytokines were significantly increased in the symptomatic phase compared to remission. Protein analysis revealed 17 proteins regulated by the SP versus R phase sera of disease. A linear relationship between CDAI (Crohn's disease activity index) and normalized protein expression of APOA1 and 2, TTR, CDKAL1 and TUBB6 could be determined. Eleven proteins were found to be differentially regulated comparing osteoporosis-positive and osteoporosis-negative sera. Gene annotation and further analysis identified these genes as part of heme and erythrocyte metabolism, as well as involved in hypoxia and in endocytosis. A significant linear relationship between bone mineral density and normalized protein expression could be determined for proteins FABP3 and TTR. Conclusion: Our explorative results confirm our hypothesis that factors in serum from patients with CD change the protein expression pattern of human immortalized osteoblast like cells. We suggest, that these short time changes indeed influence factors of bone metabolism.
+30003044	0	15	Crohn's disease	Disease	D003424
+30003044	62	67	human	Species	9606
+30003044	124	132	patients	Species	9606
+30003044	189	204	Crohn's disease	Disease	D003424
+30003044	206	208	CD	Disease	D003424
+30003044	252	264	osteoporosis	Disease	D010024
+30003044	392	394	CD	Disease	D003424
+30003044	537	545	patients	Species	9606
+30003044	551	553	CD	Disease	D003424
+30003044	646	650	IL-6	Gene	3569
+30003044	652	661	IL-1 beta	Gene	3553
+30003044	704	712	Patients	Species	9606
+30003044	742	752	osteopenic	Disease	C567172
+30003044	753	765	osteoporotic	Disease	D058866
+30003044	875	888	gene ontology	Disease	D030342
+30003044	890	892	GO	Disease	D030342
+30003044	963	967	IL-6	Gene	3569
+30003044	969	978	IL-1 beta	Gene	3553
+30003044	980	989	TNF alpha	Gene	7124
+30003044	1243	1258	Crohn's disease	Disease	D003424
+30003044	1312	1323	APOA1 and 2	Gene	335;336
+30003044	1325	1328	TTR	Gene	7276
+30003044	1330	1336	CDKAL1	Gene	54901
+30003044	1341	1346	TUBB6	Gene	84617
+30003044	1436	1448	osteoporosis	Disease	D010024
+30003044	1462	1474	osteoporosis	Disease	D010024
+30003044	1617	1624	hypoxia	Disease	D000860
+30003044	1775	1780	FABP3	Gene	2170
+30003044	1785	1788	TTR	Gene	7276
+30003044	1876	1884	patients	Species	9606
+30003044	1890	1892	CD	Disease	D003424
+30003044	1934	1939	human	Species	9606
+
+abstract2
+Medicial words:35
+29979724|t|Gene expression analysis of porcine whole blood cells infected with foot-and-mouth disease virus using high-throughput sequencing technology.
+29979724|a|Foot-and-mouth disease virus (FMDV) is a single-stranded positive RNA virus that belongs to the family Picornaviridae. FMDV infects cloven-hoofed animals, such as pigs, sheep, goats, cattle and diverse wildlife species, and remains a major threat to the livestock industry worldwide. In this study, a transcriptome analysis of whole blood from pigs infected with FMDV was performed using the paired-end Illumina sequencing technique to understand the interactions between the pathogen and its host cells. During infection with FMDV, a total of 120 differentially expressed genes (DEGs) were identified, including 110 up-regulated genes and 10 down-regulated genes. To further investigate the DEGs involved in interactions between the virus and its host, gene ontology (GO) annotation and Kyoto Encyclopedia of Genes and Genomes (KEGG) enrichment were conducted. GO annotation indicated that a number of DEGs were enriched in categories involved in host-virus interactions, such as response to stimulus, immune system process and regulation of biological process. KEGG enrichment analysis indicated that the DEGs were primarily involved in the ribosome signaling pathway and immune-related signaling pathways. Ten DEGs, including the immune-related genes BTK1, C1QB, TIMD4 and CXCL10, were selected and validated using quantitative PCR, which showed that the expression patterns of these genes are consistent with the results of the in silico expression analysis. In conclusion, this study presents the first transcriptome analysis of pig whole blood cells infected with FMDV, and the results obtained in this study improve our understanding of the interactions between FMDV and host cells as well as the diagnosis and control of FMD.
+29979724	68	90	foot-and-mouth disease	Disease	D005536
+29979724	142	164	Foot-and-mouth disease	Disease	D005536
+29979724	212	217	virus	Species	12081
+29979724	305	309	pigs	Species	9823
+29979724	311	316	sheep	Species	9940
+29979724	318	323	goats	Species	9925
+29979724	325	331	cattle	Species	9913
+29979724	486	490	pigs	Species	9823
+29979724	654	663	infection	Disease	D007239
+29979724	669	676	FMDV, a	Species	12111
+29979724	876	881	virus	Species	12081
+29979724	896	909	gene ontology	Disease	D030342
+29979724	911	913	GO	Disease	D030342
+29979724	1004	1006	GO	Disease	D030342
+29979724	1095	1100	virus	Species	12081
+29979724	1402	1406	C1QB	Gene	100518846
+29979724	1408	1413	TIMD4	Gene	100523827
+29979724	1418	1424	CXCL10	Gene	494019
+29979724	1676	1679	pig	Species	9823
+29979724	1871	1874	FMD	Disease	C536391
+
+abstract3
+Medicial words:23
+29970164|t|Expression profiling of Trypanosoma congolense genes during development in the tsetse fly vector Glossina morsitans morsitans.
+29970164|a|BACKGROUND: The tsetse transmitted parasitic flagellate Trypanosoma congolense causes animal African trypanosomosis (AAT) across sub-Saharan Africa. AAT negatively impacts agricultural, economic, nutritional and subsequently, health status of the affected populace. The molecular mechanisms that underlie T. congolense's developmental program within tsetse are largely unknown due to considerable challenges with obtaining sufficient parasite cells to perform molecular studies. METHODS: In this study, we used RNA-seq to profile T. congolense gene expression during development in two distinct tsetse tissues, the cardia and proboscis. Indirect immunofluorescent antibody test (IFA) and confocal laser scanning microscope was used to localize the expression of a putative protein encoded by the hypothetical protein (TcIL3000_0_02370). RESULTS: Consistent with current knowledge, genes coding several variant surface glycoproteins (including metacyclic specific VSGs), and the surface coat protein, congolense epimastigote specific protein, were upregulated in parasites in the proboscis (PB-parasites). Additionally, our results indicate that parasites in tsetse's cardia (C-parasites) and PB employ oxidative phosphorylation and amino acid metabolism for energy. Several genes upregulated in C-parasites encoded receptor-type adenylate cyclases, surface carboxylate transporter family proteins (or PADs), transport proteins, RNA-binding proteins and procyclin isoforms. Gene ontology analysis of products of genes upregulated in C-parasites showed enrichment of terms broadly associated with nucleotides, microtubules, cell membrane and its components, cell signaling, quorum sensing and several transport activities, suggesting that the parasites colonizing the cardia may monitor their environment and regulate their density and movement in this tissue. Additionally, cell surface protein (CSP) encoding genes associated with the Fam50 'GARP', 'iii' and 'i' subfamilies were also significantly upregulated in C-parasites, suggesting that they are important for the long non-dividing trypomastigotes to colonize tsetse's cardia. The putative products of genes that were upregulated in PB-parasites were linked to nucleosomes, cytoplasm and membrane-bound organelles, which suggest that parasites in this niche undergo cell division in line with prior findings. Most of the CSPs upregulated in PB-parasites were hypothetical, thus requiring further functional characterization. Expression of one such hypothetical protein (TcIL3000_0_02370) was analyzed using immunofluorescence and confocal laser scanning microscopy, which together revealed preferential expression of this protein on the entire surface coat of T. congolense parasite stages that colonize G. m. morsitans' proboscis. CONCLUSION: Collectively, our results provide insight into T. congolense gene expression profiles in distinct niches within the tsetse vector. Our results show that the hypothetical protein TcIL3000_0_02370, is expressed on the entire surface of the trypanosomes inhabiting tsetse's proboscis. We discuss our results in terms of their relevance to disease transmission processes.
+29970164	86	89	fly	Species	7227
+29970164	213	242	animal African trypanosomosis	Disease	D000820
+29970164	244	247	AAT	Disease	D000820
+29970164	276	279	AAT	Disease	D000820
+29970164	742	748	cardia	Disease	D004938
+29970164	1189	1198	parasites	Species	5811
+29970164	1220	1229	parasites	Species	5811
+29970164	1272	1281	parasites	Species	5811
+29970164	1294	1300	cardia	Disease	D004938
+29970164	1304	1313	parasites	Species	5811
+29970164	1424	1433	parasites	Species	5811
+29970164	1661	1670	parasites	Species	5811
+29970164	1868	1877	parasites	Species	5811
+29970164	1893	1899	cardia	Disease	D004938
+29970164	2143	2152	parasites	Species	5811
+29970164	2234	2258	colonize tsetse's cardia	Disease	D003110
+29970164	2319	2328	parasites	Species	5811
+29970164	2417	2426	parasites	Species	5811
+29970164	2527	2536	parasites	Species	5811
+29970164	3165	3177	trypanosomes	Species	5691
+
+abstract4
+Medicial words:23
+29944905|t|HOTAIR is a REST-regulated lncRNA that promotes neuroendocrine differentiation in castration resistant prostate cancer.
+29944905|a|Long non-coding RNAs (lncRNAs) are emerging as novel diagnostic markers of prostate cancer (PCa) and new determinants of castration-resistant PCa (CRPC), an aggressive and metastatic form of PCa. In addition to androgen receptor (AR) signaling, neuroendocrine differentiation (NED) is associated with CRPC. Recent reports demonstrate that the downregulation of repressor element-1 silencing transcription factor (REST) protein is a key step in NED of PCa cells. Here, we report HOTAIR as a novel REST-repressed lncRNA that is upregulated in NED PCa cells and in CRPC. HOTAIR overexpression is sufficient to induce, whereas knockdown of HOTAIR suppressed NED of PCa cells. Gene ontology (GO) analysis of differentially expressed genes under HOTAIR overexpression and in CRPC versus benign prostatic hyperplasia (BPH) suggests that HOTAIR may participate in PCa progression. Taken together, our results provide the first evidence of lncRNA HOTAIR as a driver for NED of PCa cells.
+29944905	0	6	HOTAIR	Gene	100124700
+29944905	12	16	REST	Gene	5978
+29944905	103	118	prostate cancer	Disease	D011471
+29944905	195	210	prostate cancer	Disease	D011471
+29944905	212	215	PCa	Disease	D011471
+29944905	262	265	PCa	Disease	D011471
+29944905	311	314	PCa	Disease	D011471
+29944905	331	339	androgen	Chemical	CHEBI:50113
+29944905	350	352	AR	Gene	367
+29944905	481	531	repressor element-1 silencing transcription factor	Gene	5978
+29944905	533	537	REST	Gene	5978
+29944905	571	574	PCa	Disease	D011471
+29944905	598	604	HOTAIR	Gene	100124700
+29944905	616	620	REST	Gene	5978
+29944905	665	668	PCa	Disease	D011471
+29944905	688	694	HOTAIR	Gene	100124700
+29944905	756	762	HOTAIR	Gene	100124700
+29944905	781	784	PCa	Disease	D011471
+29944905	860	866	HOTAIR	Gene	100124700
+29944905	901	929	benign prostatic hyperplasia	Disease	D011470
+29944905	931	934	BPH	Disease	D011470
+29944905	950	956	HOTAIR	Gene	100124700
+29944905	976	979	PCa	Disease	D011471
+29944905	1058	1064	HOTAIR	Gene	100124700
+29944905	1088	1091	PCa	Disease	D011471
+
+abstract5
+Medicial words:28
+29910565|t|Proteomic Analysis of Avian Influenza A (H7N9) Patients within a Family Cluster.
+29910565|a|Background: To date, there is limited information on the progression of human infections of avian influenza virus A (H7N9). This study investigated differential blood protein profiling of a H7N9-infected family cluster to find a slice of crucial proteins concerning disease attack and virus clearance. Materials and Methods: Plasma samples from one family cluster (including one index case and one asymptomatic case) were collected at four time points. The protein profiles were identified by isobaric tagging for relative and absolute quantification-based quantitative differential LC/MS/MS, and their functional annotations were analyzed by PANTHER and STRING tools. Results: A total of 1257 nonredundant proteins were identified from 3027 unique peptides. Three differential protein profiles for each subject were generated by comparing relative protein abundance between samples of each of the first three time points and the last time point. Gene ontology analysis indicated that differential protein profiles for the two cases were mainly enriched in the biological processes of response to stimulus, immunity, blood coagulation, lipid transport, and cell adhesion. Two groups of proteins with an upward or downward expression change according to the postinfection time points were detected for each case. STRING analysis further indicated that the hubs in the network of these time-dependent proteins were mostly apolipoproteins. Conclusions: Significant perturbation of the response upon viral infection occurred immediately after confirmation of H7N9 virus infection. The differential protein profiles shed further light on distinguishing the index case from the asymptomatic one. Furthermore, apolipoproteins may play an important role in the progression of the disease.
+29910565	47	55	Patients	Species	9606
+29910565	153	158	human	Species	9606
+29910565	366	371	virus	Species	12081
+29910565	1641	1646	virus	Species	12081
+
+abstract6
+Medicial words:7
+29856822|t|Bone formation transcripts dominate the differential gene expression profile in an equine osteoporotic condition associated with pulmonary silicosis.
+29856822|a|Osteoporosis has been associated with pulmonary silicosis in California horses exposed to soils rich in cytotoxic silica dioxide crystals, a syndrome termed silicate associated osteoporosis (SAO). The causal mechanism for the development of osteoporosis is unknown. Osteoporotic lesions are primarily located in bone marrow-rich sites such as ribs, scapula and pelvis. Gene transcription patterns within bone marrow and pulmonary lymph nodes of affected horses may offer clues to disease pathobiology. Bone marrow core and tracheobronchial lymph node tissue samples harvested postmortem from affected and unaffected horses were examined histologically and subjected to RNA sequencing (RNA-seq). Sequenced data were analyzed for differential gene expression and gene ontology. Metatranscriptomic and metagenomic assays evaluated samples for infectious agents. Thirteen of 17 differentially expressed transcripts in bone marrow were linked to bone and cartilage formation such as integrin binding bone sialoprotein (log2FC = 3.39, PFDR = 0.013) and chondroadherin (log2FC = 4.48, PFDR = 0.031). Equus caballus solute carrier family 9, subfamily A2 (log2FC = 3.77, PFDR = 0.0034) was one of the four differentially expressed transcripts linked to osteoclast activity. Osteoblasts were hyperplastic and hypertrophic in bone marrow from affected horses. Biological pathways associated with skeletal morphogenesis were significantly enriched in affected horses. The 30 differentially expressed genes in affected lymph nodes were associated with inflammatory responses. Evidence of infectious agents was not found. The SAO affected bone marrow molecular signature demonstrated increased transcription and heightened activation of osteoblasts. Increased osteoblastic activity could be part of the pathological mechanism for osteoporosis or a compensatory response to the accelerated osteolysis. Transcriptome data offer gene targets for inquiries into the role of osteocytes and osteoblasts in SAO pathogenesis. Viral or bacterial infectious etiology in SAO is less likely based on metatranscriptomic and metagenomic data but cannot be completely ruled out.
+29856822	83	89	equine	Species	9796
+29856822	90	112	osteoporotic condition	Disease	D058866
+29856822	129	148	pulmonary silicosis	Disease	D008171
+29856822	150	162	Osteoporosis	Disease	D010024
+29856822	188	207	pulmonary silicosis	Disease	D008171
+29856822	222	228	horses	Species	9796
+29856822	264	278	silica dioxide	Chemical
+29856822	307	339	silicate associated osteoporosis	Disease	D010024
+29856822	341	344	SAO	Disease	D010024
+29856822	391	403	osteoporosis	Disease	D010024
+29856822	416	436	Osteoporotic lesions	Disease	D001927
+29856822	604	610	horses	Species	9796
+29856822	766	772	horses	Species	9796
+29856822	1197	1211	chondroadherin	Gene	100147607
+29856822	1243	1257	Equus caballus	Species	9796
+29856822	1432	1444	hyperplastic	Disease	D000796
+29856822	1449	1461	hypertrophic	Disease	D006984
+29856822	1491	1497	horses	Species	9796
+29856822	1598	1604	horses	Species	9796
+29856822	1762	1765	SAO	Disease	D010024
+29856822	1966	1978	osteoporosis	Disease	D010024
+29856822	2136	2139	SAO	Disease	D010024
+29856822	2163	2172	bacterial	Species	2
+29856822	2196	2199	SAO	Disease	D010024
+
+abstract7
+Medicial words:27
+29852316|t|Complex overlapping concepts: An effective auditing methodology for families of similarly structured BioPortal ontologies.
+29852316|a|In previous research, we have demonstrated for a number of ontologies that structurally complex concepts (for different definitions of "complex") in an ontology are more likely to exhibit errors than other concepts. Thus, such complex concepts often become fertile ground for quality assurance (QA) in ontologies. They should be audited first. One example of complex concepts is given by "overlapping concepts" (to be defined below.) Historically, a different auditing methodology had to be developed for every single ontology. For better scalability and efficiency, it is desirable to identify family-wide QA methodologies. Each such methodology would be applicable to a whole family of similar ontologies. In past research, we had divided the 685 ontologies of BioPortal into families of structurally similar ontologies. We showed for four ontologies of the same large family in BioPortal that "overlapping concepts" are indeed statistically significantly more likely to exhibit errors. In order to make an authoritative statement concerning the success of "overlapping concepts" as a methodology for a whole family of similar ontologies (or of large subhierarchies of ontologies), it is necessary to show that "overlapping concepts" have a higher likelihood of errors for six out of six ontologies of the family. In this paper, we are demonstrating for two more ontologies that "overlapping concepts" can successfully predict groups of concepts with a higher error rate than concepts from a control group. The fifth ontology is the Neoplasm subhierarchy of the National Cancer Institute thesaurus (NCIt). The sixth ontology is the Infectious Disease subhierarchy of SNOMED CT. We demonstrate quality assurance results for both of them. Furthermore, in this paper we observe two novel, important, and useful phenomena during quality assurance of "overlapping concepts." First, an erroneous "overlapping concept" can help with discovering other erroneous "non-overlapping concepts" in its vicinity. Secondly, correcting erroneous "overlapping concepts" may turn them into "non-overlapping concepts." We demonstrate that this may reduce the complexity of parts of the ontology, which in turn makes the ontology more comprehensible, simplifying maintenance and use of the ontology.
+29852316	1658	1666	Neoplasm	Disease	D009369
+29852316	1696	1702	Cancer	Disease	D009369
+
+abstract8
+Medicial words:5
+29785561|t|RepTB: a gene ontology based drug repurposing approach for tuberculosis.
+29785561|a|Tuberculosis (TB) is the world's leading infectious killer with 1.8 million deaths in 2015 as reported by WHO. It is therefore imperative that alternate routes of identification of novel anti-TB compounds are explored given the time and costs involved in new drug discovery process. Towards this, we have developed RepTB. This is a unique drug repurposing approach for TB that uses molecular function correlations among known drug-target pairs to predict novel drug-target interactions. In this study, we have created a Gene Ontology based network containing 26,404 edges, 6630 drug and 4083 target nodes. The network, enriched with molecular function ontology, was analyzed using Network Based Inference (NBI). The association scores computed from NBI are used to identify novel drug-target interactions. These interactions are further evaluated based on a combined evidence approach for identification of potential drug repurposing candidates. In this approach, targets which have no known variation in clinical isolates, no human homologs, and are essential for Mtb's survival and or virulence are prioritized. We analyzed predicted DTIs to identify target pairs whose predicted drugs may have synergistic bactericidal effect. From the list of predicted DTIs from RepTB, four TB targets, namely, FolP1 (Dihydropteroate synthase), Tmk (Thymidylate kinase), Dut (Deoxyuridine 5'-triphosphate nucleotidohydrolase) and MenB (1,4-dihydroxy-2-naphthoyl-CoA synthase) may be selected for further validation. In addition, we observed that in some cases there is significant chemical structure similarity between predicted and reported drugs of prioritized targets, lending credence to our approach. We also report new chemical space for prioritized targets that may be tested further. We believe that with increasing drug-target interaction dataset RepTB will be able to offer better predictive value and is amenable for identification of drug-repurposing candidates for other disease indications too.
+29785561	59	71	tuberculosis	Disease	D014376
+29785561	73	85	Tuberculosis	Disease	D014376
+29785561	87	89	TB	Disease	D014376
+29785561	265	267	TB	Disease	D014376
+29785561	442	444	TB	Disease	D014376
+29785561	1100	1105	human	Species	9606
+29785561	1138	1141	Mtb	Species	1773
+29785561	1352	1354	TB	Disease	D014376
+29785561	1379	1394	Dihydropteroate	Chemical	C000978
+29785561	1411	1422	Thymidylate	Chemical	CHEBI:17013
+29785561	1437	1465	Deoxyuridine 5'-triphosphate	Chemical
+29785561	1497	1526	1,4-dihydroxy-2-naphthoyl-CoA	Chemical	CHEBI:52668
+
+abstract9
+Medicial words:15
+29718440|t|Low Dose of Bisphenol A Modulates Ovarian Cancer Gene Expression Profile and Promotes Epithelial to Mesenchymal Transition via Canonical Wnt Pathway.
+29718440|a|The xenoestrogen bisphenol A (BPA) is a synthetic endocrine disrupting chemical, having the potential to increase the risk of hormone-dependent ovarian cancer. Thus, a deeper understanding of the molecular and cellular mechanisms is urgently required in the novel cell models of ovarian cancer which express estrogen receptors. To understand the possible mechanisms underlying the effects of BPA, human ovarian adenocarcinoma SKOV3 cells were exposed to BPA (10 or 100   nM) or 0.1% DMSO for 24   h, and then global gene expression profile was determined by high-throughput RNA sequencing. Also, enrichment analysis was carried out to find out relevant functions and pathways within which differentially expressed genes were significantly enriched. Transcriptomic analysis revealed 94 differential expression genes. Gene Ontology and Kyoto Encyclopedia of Genes and Genomes pathway analyses indicated that these genes related to tumorigenesis and metastasis. Further studies were carried out to validate the results of functional annotation, which indicated that BPA (10 and 100   nM) increased migration and invasion as well as induced epithelial to mesenchymal transitions in SKOV3 and A2780 cells. Accordingly, environmentally-relevant-dose BPA activated the canonical Wnt signaling pathway. Our study first comprehensively analyzed the possible mechanisms underlying the effects of BPA on ovarian cancer. Environmentally relevant doses of BPA modulated the gene expression profile, promoted EMT progress via canonical Wnt signaling pathway of ovarian cancer.
+29718440	12	23	Bisphenol A	Chemical	C006780
+29718440	167	178	bisphenol A	Chemical	C006780
+29718440	180	183	BPA	Chemical
+29718440	294	308	ovarian cancer	Disease	D010051
+29718440	429	443	ovarian cancer	Disease	D010051
+29718440	458	466	estrogen	Chemical	D004967
+29718440	542	545	BPA	Chemical
+29718440	547	552	human	Species	9606
+29718440	553	575	ovarian adenocarcinoma	Disease	D010051
+29718440	604	607	BPA	Chemical
+29718440	633	637	DMSO	Chemical	D004121
+29718440	1097	1107	metastasis	Disease	D009362
+29718440	1213	1216	BPA	Chemical
+29718440	1394	1397	BPA	Chemical
+29718440	1536	1539	BPA	Chemical
+29718440	1543	1557	ovarian cancer	Disease	D010051
+29718440	1593	1596	BPA	Chemical
+29718440	1645	1648	EMT	Gene	3702
+29718440	1697	1711	ovarian cancer	Disease	D010051
+
+abstract10
+Medicial words:22
+29688357|t|Identification of errors in the IEDB using ontologies.
+29688357|a|The Immune Epitope Database (IEDB) is a free online resource that has manually curated over 18  500 references from the scientific literature. Our database presents experimental data relating to the recognition of immune epitopes by the adaptive immune system in a structured, searchable manner. In order to be consistent and accurate in our data representation across many different journals, authors and curators, we have implemented several quality control measures, such as curation rules, controlled vocabularies and links to external ontologies and other resources. Ontologies and other resources have greatly benefited the IEDB through improved search interfaces, easier curation practices, interoperability between the IEDB and other databases and the identification of errors within our dataset. Here, we will elaborate on how ontology mapping and usage can be used to find and correct errors in a manually curated database.Database URL: www.iedb.org.
+
+abstract11
+Medicial words:3
+29678017|t|A Knowledge-Base for a Personalized Infectious Disease Risk Prediction System.
+29678017|a|We present a knowledge-base to represent collated infectious disease risk (IDR) knowledge. The knowledge is about personal and contextual risk of contracting an infectious disease obtained from declarative sources (e.g. Atlas of Human Infectious Diseases). Automated prediction requires encoding this knowledge in a form that can produce risk probabilities (e.g. Bayesian Network - BN). The knowledge-base presented in this paper feeds an algorithm that can auto-generate the BN. The knowledge from 234 infectious diseases was compiled. From this compilation, we designed an ontology and five rule types for modelling IDR knowledge in general. The evaluation aims to assess whether the knowledge-base structure, and its application to three disease-country contexts, meets the needs of personalized IDR prediction system. From the evaluation results, the knowledge-base conforms to the system's purpose: personalization of infectious disease risk.
+29678017	308	313	Human	Species	9606
+
+abstract12
+Medicial words:4
+29620197|t|Identification of key genes in non  -alcoholic fatty liver disease progression based on bioinformatics analysis.
+29620197|a|Due to economic development and lifestyle changes, the incidence of non  -alcoholic fatty liver disease (NAFLD) has gradually increased in recent years. However, the pathogenesis of NAFLD is not yet fully understood. To identify candidate genes that contribute to the development and progression of NAFLD, two microarray datasets were downloaded from the Gene Expression Omnibus database. The differentially expressed genes (DEGs) were identified and functional enrichment analyses were performed. A protein  -protein interaction network was constructed and modules were extracted using the Search Tool for the Retrieval of Interacting Genes and Cytoscape. The enriched functions and pathways of the DEGs included 'cellular macromolecule biosynthetic process', 'cellular response to chemical stimulus', 'extracellular matrix organization', 'metabolic pathways', 'insulin resistance' and 'forkhead box protein O1 signaling pathway'. The DEGs, including type  -1 angiotensin II receptor, formin  -binding protein 1  -like, RNA  -binding protein with serine  -rich domain 1, Ras  -related C3 botulinum toxin substrate 1 and polyubiquitin  -C, were identified using multiple bioinformatics methods and validated in  vitro with reverse transcription  -quantitative polymerase chain reaction analysis. In conclusion, five hub genes were identified in the present study, and they may aid in understanding of the molecular mechanisms underlying the development and progression of NAFLD.
+29620197	31	66	non  -alcoholic fatty liver disease	Disease	D065626
+29620197	181	216	non  -alcoholic fatty liver disease	Disease	D065626
+29620197	218	223	NAFLD	Disease	D065626
+29620197	295	300	NAFLD	Disease	D065626
+29620197	412	417	NAFLD	Disease	D065626
+29620197	976	983	insulin	Gene	3630
+29620197	1065	1097	type  -1 angiotensin II receptor	Gene	185
+29620197	1099	1183	formin  -binding protein 1  -like, RNA  -binding protein with serine  -rich domain 1	Gene	54874;10921
+29620197	1161	1167	serine	Chemical	CHEBI:17822
+29620197	1185	1229	Ras  -related C3 botulinum toxin substrate 1	Gene	5879
+29620197	1234	1247	polyubiquitin	Chemical
+29620197	1585	1590	NAFLD	Disease	D065626
+
+abstract13
+Medicial words:15
+29596449|t|Sequence analysis of the potato aphid Macrosiphum euphorbiae transcriptome identified two new viruses.
+29596449|a|The potato aphid, Macrosiphum euphorbiae, is an important agricultural pest that causes economic losses to potato and tomato production. To establish the transcriptome for this aphid, RNA-Seq libraries constructed from aphids maintained on tomato plants were used in Illumina sequencing generating 52.6 million 75-105 bp paired-end reads. The reads were assembled using Velvet/Oases software with SEED preprocessing resulting in 22,137 contigs with an N50 value of 2,003bp. After removal of contigs from tomato host origin, 20,254 contigs were annotated using BLASTx searches against the non-redundant protein database from the National Center for Biotechnology Information (NCBI) as well as IntereProScan. This identified matches for 74% of the potato aphid contigs. The highest ranking hits for over 12,700 contigs were against the related pea aphid, Acyrthosiphon pisum. Gene Ontology (GO) was used to classify the identified M. euphorbiae contigs into biological process, cellular component and molecular function. Among the contigs, sequences of microbial origin were identified. Sixty five contigs were from the aphid bacterial obligate endosymbiont Buchnera aphidicola origin and two contigs had amino acid similarities to viruses. The latter two were named Macrosiphum euphorbiae virus 2 (MeV-2) and Macrosiphum euphorbiae virus 3 (MeV-3). The highest sequence identity to MeV-2 had the Dysaphis plantaginea densovirus, while to MeV-3 is the Hubei sobemo-like virus 49. Characterization of MeV-2 and MeV-3 indicated that both are transmitted vertically from adult aphids to nymphs. MeV-2 peptides were detected in the aphid saliva and only MeV-2 and not MeV-3 nucleic acids were detected inside tomato leaves exposed to virus-infected aphids. However, MeV-2 nucleic acids did not persist in tomato leaf tissues, after clearing the plants from aphids, indicating that MeV-2 is likely an aphid virus.
+29596449	25	31	potato	Species	4113
+29596449	94	101	viruses	Species	10239
+29596449	107	113	potato	Species	4113
+29596449	210	216	potato	Species	4113
+29596449	221	227	tomato	Species	4081
+29596449	343	349	tomato	Species	4081
+29596449	607	613	tomato	Species	4081
+29596449	849	855	potato	Species	4113
+29596449	945	954	pea aphid	Species	7029
+29596449	956	975	Acyrthosiphon pisum	Species	7029
+29596449	1227	1236	bacterial	Species	2
+29596449	1259	1278	Buchnera aphidicola	Species	9
+29596449	1306	1316	amino acid	Chemical	D000596
+29596449	1333	1340	viruses	Species	10239
+29596449	1368	1398	Macrosiphum euphorbiae virus 2	Species	1685953
+29596449	1411	1441	Macrosiphum euphorbiae virus 3	Species	1685953
+29596449	1553	1576	Hubei sobemo-like virus	Disease	D015658
+29596449	1806	1812	tomato	Species	4081
+29596449	1831	1836	virus	Species	12081
+29596449	1902	1908	tomato	Species	4081
+29596449	2003	2008	virus	Species	12081
+
+abstract14
+Medicial words:24
+29566761|t|The expression profile of human peripheral blood mononuclear cell miRNA is altered by antibody-dependent enhancement of infection with dengue virus serotype 3.
+29566761|a|BACKGROUND: Antibody-dependent enhancement (ADE) of dengue virus (DENV) infection has been identified as the main risk factor for severe dengue disease, although the underlying mechanisms leading to severe dengue fever remain unclear. MicroRNAs (miRNAs) participate in numerous pathological and biological processes, including host responses to viral infections. METHOD: Here, we aimed to investigate the differences in miRNA expression patterns in human peripheral blood mononuclear cells (PBMCs) infected with DENV-3 and DENV-3-ADE at various time points employing high-throughput sequencing. RESULTS: According to miRNAs high-throughput sequencing, a total of 50 known miRNAs exhibited significant differences. GO (Gene Ontology) and pathway analysis of the predicted targets showed enrichment in the regulation of transcription, including multicellular organismal development, DNA-dependent transcription, negative regulation of cell differentiation and transcription. Afterwards, regulatory networks of miRNA predicted targets, miRNA transcription factors, miRNA pathways and miRNA GOs were formulated to expose the complex regulatory mechanisms of miRNAs during the infection phase. Finally, we analyzed hierarchical GO categories of the predicted targets involved in the MAPK signaling pathway, the cGMP-PKG signaling pathway, the cAMP signaling pathway, the endocytosis effect, and our analyses indicated that innate and adaptive immunity following DENV-3 and DENV-3-ADE infections may be signally distinct. CONCLUSION: Our results demonstrate a novel describing miRNA expression profiles in human PBMCs with DENV-3 and DENV-3-ADE infections using high-throughput sequencing. Our findings could provide a beneficial basis for further studies on the regulatory roles of miRNAs relevant to the different immune responses caused by DENV-3 and DENV-3-ADE infections.
+29566761	26	31	human	Species	9606
+29566761	105	129	enhancement of infection	Disease	D007239
+29566761	212	241	dengue virus (DENV) infection	Disease	D015658
+29566761	297	311	dengue disease	Disease	D004194
+29566761	366	378	dengue fever	Disease	D003715
+29566761	505	521	viral infections	Disease	D014777
+29566761	609	614	human	Species	9606
+29566761	874	876	GO	Disease	D030342
+29566761	878	891	Gene Ontology	Disease	D030342
+29566761	1383	1385	GO	Disease	D030342
+29566761	1466	1470	cGMP	Chemical	CHEBI:16356
+29566761	1498	1502	cAMP	Chemical	CHEBI:17489
+29566761	1760	1765	human	Species	9606
+
+abstract15
+Medicial words:16
+29545791|t|Functional, Antigen-Specific Stem Cell Memory (T<sub>SCM</sub>) CD4<sup>+</sup>T Cells Are Induced by Human<i>Mycobacterium tuberculosis</i>Infection.
+29545791|a|Background: Maintenance of long-lasting immunity is thought to depend on stem cell memory T cells (T<sub>SCM</sub>), which have superior self-renewing capacity, longevity and proliferative potential compared with central memory (T<sub>CM</sub>) or effector (T<sub>EFF</sub>) T cells. Our knowledge of T<sub>SCM</sub>derives primarily from studies of virus-specific CD8<sup>+</sup>T<sub>SCM</sub>. We aimed to determine if infection with<i>Mycobacterium tuberculosis</i>(<i>M. tb</i>), the etiological agent of tuberculosis, generates antigen-specific CD4<sup>+</sup>T<sub>SCM</sub>and to characterize their functional ontology. Methods: We studied T cell responses to natural<i>M. tb</i>infection in a longitudinal adolescent cohort of recent QuantiFERON-TB Gold (QFT) converters and three cross-sectional QFT<sup>+</sup>adult cohorts; and to bacillus Calmette-Guerin (BCG) vaccination in infants.<i>M. tb</i>and/or BCG-specific CD4 T cells were detected by flow cytometry using major histocompatibility complex class II tetramers bearing Ag85, CFP-10, or ESAT-6 peptides, or by intracellular cytokine staining. Transcriptomic analyses of<i>M. tb</i>-specific tetramer<sup>+</sup>CD4<sup>+</sup>T<sub>SCM</sub>(CD45RA<sup>+</sup>CCR7<sup>+</sup>CD27<sup>+</sup>) were performed by microfluidic qRT-PCR, and functional and phenotypic characteristics were confirmed by measuring expression of chemokine receptors, cytotoxic molecules and cytokines using flow cytometry. Results:                     <i>M. tb</i>-specific T<sub>SCM</sub>were not detected in QFT-negative persons. After QFT conversion frequencies of T<sub>SCM</sub>increased to measurable levels and remained detectable thereafter, suggesting that primary<i>M. tb</i>infection induces T<sub>SCM</sub>cells. Gene expression (GE) profiling of tetramer<sup>+</sup>T<sub>SCM</sub>showed that these cells were distinct from bulk CD4<sup>+</sup>na  ve T cells (T<sub>N</sub>) and shared features of bulk T<sub>SCM</sub>and<i>M. tb</i>-specific tetramer<sup>+</sup>T<sub>CM</sub>and T<sub>EFF</sub>cells. These T<sub>SCM</sub>were predominantly CD95<sup>+</sup>and CXCR3<sup>+</sup>, markers typical of CD8<sup>+</sup>T<sub>SCM</sub>. Tetramer<sup>+</sup>T<sub>SCM</sub>expressed significantly higher protein levels of CCR5, CCR6, CXCR3, granzyme A, granzyme K, and granulysin than bulk T<sub>N</sub>and T<sub>SCM</sub>cells.<i>M. tb</i>-specific T<sub>SCM</sub>were also functional, producing IL-2, IFN-y, and TNF-a upon antigen stimulation, and their frequencies correlated positively with long-term BCG-specific CD4<sup>+</sup>T cell proliferative potential after infant vaccination. Conclusion: Human infection with<i>M. tb</i>induced distinct, antigen-specific CD4<sup>+</sup>T<sub>SCM</sub>cells endowed with effector functions, including expression of cytotoxic molecules and Th1 cytokines, and displayed chemokine receptor profiles consistent with memory Th1/17 cells. Induction of CD4<sup>+</sup>T<sub>SCM</sub>should be considered for vaccination approaches that aim to generate long-lived memory T cells against<i>M. tb</i>.
+29545791	64	67	CD4	Gene	920
+29545791	102	107	Human	Species	9606
+29545791	124	136	tuberculosis	Disease	D014376
+29545791	501	506	virus	Species	12081
+29545791	516	519	CD8	Gene	925
+29545791	604	616	tuberculosis	Disease	D014376
+29545791	661	673	tuberculosis	Disease	D014376
+29545791	702	705	CD4	Gene	920
+29545791	1020	1023	BCG	Species	33892
+29545791	1040	1047	infants	Species	9606
+29545791	1067	1070	BCG	Species	33892
+29545791	1080	1083	CD4	Gene	920
+29545791	1190	1194	Ag85	Chemical	C093656
+29545791	1331	1334	CD4	Gene	920
+29545791	1380	1384	CCR7	Gene	1236
+29545791	1719	1726	persons	Species	9606
+29545791	2038	2041	CD4	Gene	920
+29545791	2272	2277	CXCR3	Gene	2833
+29545791	2310	2313	CD8	Gene	925
+29545791	2426	2430	CCR5	Gene	1234
+29545791	2432	2436	CCR6	Gene	1235
+29545791	2438	2443	CXCR3	Gene	2833
+29545791	2445	2455	granzyme A	Gene	3001
+29545791	2457	2467	granzyme K	Gene	3003
+29545791	2473	2483	granulysin	Chemical
+29545791	2709	2712	BCG	Species	33892
+29545791	2722	2725	CD4	Gene	920
+29545791	2774	2780	infant	Species	9606
+29545791	2806	2811	Human	Species	9606
+29545791	2873	2876	CD4	Gene	920
+29545791	2990	2993	Th1	Gene	51497
+29545791	3070	3073	Th1	Gene	51497
+29545791	3097	3100	CD4	Gene	920
+
+abstract16
+Medicial words:36
+29497848|t|Characterization of the interactome of the porcine reproductive and respiratory syndrome virus glycoprotein-5.
+29497848|a|Porcine reproductive and respiratory syndrome virus (PRRSV) is one of the most important pathogens in the swine industry, causing reproductive failure in sows and respiratory disorders in piglets. Glycosylated protein 5 (GP5) is a major envelope protein of the virus. It is essential for virus particle assembly and involved in viral pathogenesis. In the present study, we identified the host cellular proteins that interact with GP5 by performing immunoprecipitation in MARC-145 cells infected by a recombinant PRRSV containing a FLAG-tag insertion in GP5. In total, 122 cellular proteins were identified by LC-MS/MS. Gene Ontology and KEGG databases were used to map these proteins to different cellular processes, locations and functions. Interestingly, 10.24% of identified cellular proteins were involved in the process of translation. Follow up experiments demonstrated that expression of GP5 in transfected cells led to inhibition of translation of reporter genes. Interaction between GP5 and ATP synthase subunit alpha (ATP5A) was further confirmed by co-immunoprecipitation suggesting a possible role of GP5 in regulation of ATP production in cells. These data contribute to a better understanding of GP5's role in viral pathogenesis and virus-host interactions.
+29497848	43	88	porcine reproductive and respiratory syndrome	Disease	D019318
+29497848	111	156	Porcine reproductive and respiratory syndrome	Disease	D019318
+29497848	217	222	swine	Species	9823
+29497848	274	295	respiratory disorders	Disease	D012131
+29497848	372	377	virus	Species	12081
+29497848	399	404	virus	Species	12081
+29497848	623	628	PRRSV	Species	28344
+29497848	1111	1114	ATP	Chemical	D000255
+29497848	1139	1144	ATP5A	Gene	498
+29497848	1245	1248	ATP	Chemical	D000255
+29497848	1358	1363	virus	Species	12081
+
+abstract17
+Medicial words:14
+29454027|t|Selection of biomarkers for HIV-1 latency by integrated analysis.
+29454027|a|A major obstacle in the treatment of human immunodeficiency virus type 1 (HIV-1) is its ability to establish latent infection. To find novel biomarkers associated with the mechanism of HIV-1 latent infection, we identified 70 candidate genes in HIV-1 latently infected cells through the integrated analysis in a previous study. It is important to select more effective biomarkers among 70 candidates and to verify the possibility of selected biomarkers for HIV-1 latency. We identified the 24 and 25 genes from 70 candidate genes in significantly enriched categories selected by Database for Annotation, Visualization and Integrated Discovery (DAVID) software and Gene Set Enrichment Analysis (GSEA) software, respectively. Also, we investigated genes regulated in both HIV-1 latently infected cell lines and PBMCs from HIV-1 infected patients and found the genes with a common pattern of expression levels in both cell lines and PBMCs. Consequently, we identified nine genes, APBB2, GMPR, IGF2BP3, LRP1, MAD2L2, MX1, OXR1, PTK2B, and TNFSF13B, via integrated analysis. Especially, APBB2 and MAD2L2 were identified in both DAVID and GSEA software. Our findings suggest that nine genes were identified via integrated analysis as potential biomarkers and in particular, APBB2 and MAD2L2 may be considered as more significant biomarkers for HIV-1 latency.
+29454027	28	33	HIV-1	Species	11676
+29454027	103	145	human immunodeficiency virus type 1 (HIV-1	Species	11676
+29454027	175	191	latent infection	Disease	D007239
+29454027	251	273	HIV-1 latent infection	Disease	D015658
+29454027	311	316	HIV-1	Species	11676
+29454027	523	528	HIV-1	Species	11676
+29454027	836	900	HIV-1 latently infected cell lines and PBMCs from HIV-1 infected	Disease	D015658
+29454027	901	909	patients	Species	9606
+29454027	1043	1048	APBB2	Gene	323
+29454027	1050	1054	GMPR	Gene	2766
+29454027	1056	1063	IGF2BP3	Gene	10643
+29454027	1065	1069	LRP1	Gene	4035
+29454027	1071	1077	MAD2L2	Gene	10459
+29454027	1079	1082	MX1	Gene	4599
+29454027	1084	1088	OXR1	Gene	55074
+29454027	1090	1095	PTK2B	Gene	2185
+29454027	1101	1109	TNFSF13B	Chemical
+29454027	1148	1153	APBB2	Gene	323
+29454027	1158	1164	MAD2L2	Gene	10459
+29454027	1334	1339	APBB2	Gene	323
+29454027	1344	1350	MAD2L2	Gene	10459
+29454027	1404	1409	HIV-1	Species	11676
+
+abstract18
+Medicial words:25
+29433958|t|An ontology-driven clinical decision support system (IDDAP) for infectious disease diagnosis and antibiotic prescription.
+29433958|a|BACKGROUND: The available antibiotic decision-making systems were developed from a physician's perspective. However, because infectious diseases are common, many patients desire access to knowledge via a search engine. Although the use of antibiotics should, in principle, be subject to a doctor's advice, many patients take them without authorization, and some people cannot easily or rapidly consult a doctor. In such cases, a reliable antibiotic prescription support system is needed. METHODS AND RESULTS: This study describes the construction and optimization of the sensitivity and specificity of a decision support system named IDDAP, which is based on ontologies for infectious disease diagnosis and antibiotic therapy. The ontology for this system was constructed by collecting existing ontologies associated with infectious diseases, syndromes, bacteria and drugs into the ontology's hierarchical conceptual schema. First, IDDAP identifies a potential infectious disease based on a patient's self-described disease state. Then, the system searches for and proposes an appropriate antibiotic therapy specifically adapted to the patient based on factors such as the patient's body temperature, infection sites, symptoms/signs, complications, antibacterial spectrum, contraindications, drug-drug interactions between the proposed therapy and previously prescribed medication, and the route of therapy administration. The constructed domain ontology contains 1,267,004 classes, 7,608,725 axioms, and 1,266,993 members of "SubClassOf" that pertain to infectious diseases, bacteria, syndromes, anti-bacterial drugs and other relevant components. The system includes 507 infectious diseases and their therapy methods in combination with 332 different infection sites, 936 relevant symptoms of the digestive, reproductive, neurological and other systems, 371 types of complications, 838,407 types of bacteria, 341 types of antibiotics, 1504 pairs of reaction rates (antibacterial spectrum) between antibiotics and bacteria, 431 pairs of drug interaction relationships and 86 pairs of antibiotic-specific population contraindicated relationships. Compared with the existing infectious disease-relevant ontologies in the field of knowledge comprehension, this ontology is more complete. Analysis of IDDAP's performance in terms of classifiers based on receiver operating characteristic (ROC) curve results (89.91%) revealed IDDAP's advantages when combined with our ontology. CONCLUSIONS AND SIGNIFICANCE: This study attempted to bridge the patient/caregiver gap by building a sophisticated application that uses artificial intelligence and machine learning computational techniques to perform data-driven decision-making at the point of primary care. The first level of decision-making is conducted by the IDDAP and provides the patient with a first-line therapy. Patients can then make a subjective judgment, and if any questions arise, should consult a physician for subsequent decisions, particularly in complicated cases or in cases in which the necessary information is not yet available in the knowledge base.
+29433958	64	82	infectious disease	Disease	D003141
+29433958	247	266	infectious diseases	Disease	D003141
+29433958	284	292	patients	Species	9606
+29433958	433	441	patients	Species	9606
+29433958	484	490	people	Species	9606
+29433958	796	814	infectious disease	Disease	D003141
+29433958	944	963	infectious diseases	Disease	D003141
+29433958	976	984	bacteria	Species	2
+29433958	1083	1101	infectious disease	Disease	D003141
+29433958	1113	1120	patient	Species	9606
+29433958	1258	1265	patient	Species	9606
+29433958	1295	1302	patient	Species	9606
+29433958	1677	1696	infectious diseases	Disease	D003141
+29433958	1795	1814	infectious diseases	Disease	D003141
+29433958	2023	2031	bacteria	Species	2
+29433958	2137	2145	bacteria	Species	2
+29433958	2296	2334	infectious disease-relevant ontologies	Disease	D003141
+29433958	2662	2669	patient	Species	9606
+29433958	2951	2958	patient	Species	9606
+29433958	2986	2994	Patients	Species	9606
+
+abstract19
+Medicial words:23
+29430463|t|Comparison of Host Gene Expression Profiles in Spleen Tissues of Genetically Susceptible and Resistant Mice during ECTV Infection.
+29430463|a|Ectromelia virus (ECTV), the causative agent of mousepox, has emerged as a valuable model for investigating the host-Orthopoxvirus relationship as it relates to pathogenesis and the immune response. ECTV is a mouse-specific virus and causes high mortality in susceptible mice strains, including BALB/c and C3H, whereas C57BL/6 and 129 strains are resistant to the disease. To understand the host genetic factors in different mouse strains during the ECTV infection, we carried out a microarray analysis of spleen tissues derived from BALB/c and C57BL/6 mice, respectively, at 3 and 10 days after ECTV infection. Differential Expression of Genes (DEGs) analyses revealed distinct differences in the gene profiles of susceptible and resistant mice. The susceptible BALB/c mice generated more DEGs than the resistant C57BL/6 mice. Additionally, gene ontology and KEGG pathway analysis showed the DEGs of susceptible mice were involved in innate immunity, apoptosis, metabolism, and cancer-related pathways, while the DEGs of resistant mice were largely involved in MAPK signaling and leukocyte transendothelial migration. Furthermore, the BALB/c mice showed a strong induction of interferon-induced genes, which, however, were weaker in the C57BL/6 mice. Collectively, the differential transcriptome profiles of susceptible and resistant mouse strains with ECTV infection will be crucial for further uncovering the molecular mechanisms of the host-Orthopoxvirus interaction.
+29430463	103	107	Mice	Species	10090
+29430463	131	141	Ectromelia	Disease	D004480
+29430463	179	187	mousepox	Species	12643
+29430463	340	345	mouse	Species	10090
+29430463	355	360	virus	Species	12081
+29430463	402	406	mice	Species	10090
+29430463	426	432	BALB/c	Species	10090
+29430463	450	457	C57BL/6	Species	10090
+29430463	556	561	mouse	Species	10090
+29430463	581	595	ECTV infection	Disease	D015658
+29430463	665	671	BALB/c	Species	10090
+29430463	676	683	C57BL/6	Species	10090
+29430463	684	688	mice	Species	10090
+29430463	727	741	ECTV infection	Disease	D015658
+29430463	872	876	mice	Species	10090
+29430463	894	900	BALB/c	Species	10090
+29430463	901	905	mice	Species	10090
+29430463	945	952	C57BL/6	Species	10090
+29430463	953	957	mice	Species	10090
+29430463	1044	1048	mice	Species	10090
+29430463	1110	1116	cancer	Disease	D009369
+29430463	1163	1167	mice	Species	10090
+29430463	1267	1273	BALB/c	Species	10090
+29430463	1274	1278	mice	Species	10090
+29430463	1369	1376	C57BL/6	Species	10090
+29430463	1377	1381	mice	Species	10090
+29430463	1466	1471	mouse	Species	10090
+29430463	1485	1499	ECTV infection	Disease	D015658
+
+abstract20
+Medicial words:31
+29295289|t|CD-KES: An Ontology Based Knowledge Education System for Patients with Chronic Diseases and Its Constructing Approach.
+29295289|a|Patients' participation plays a crucial role in the management of chronic diseases. Educating patients about their diseases allows patients to self-regulate their daily health conditions more reasonably and effectively. This study focuses on an informative way to develop daily education and guidance among patients. We provide a systematic approach to establish, process, and present the knowledge map of chronic diseases. An ontology technique is used to model clinical knowledge and rules. Rule-based inference service is constructed based on the RETE reasoning algorithm. Several considerations in semantic visualization and interaction are listed as recommendations. A prototype of Chronic Disease Knowledge Education System (CD-KES) based on this approach has been built for diabetes mellitus. With the prototype, comparative evaluations for system performances in knowledge querying and browsing are taken. The results shows the system can help patients to more easily understand medical knowledge and avoid potential negative consequences.
+29295289	71	87	Chronic Diseases	Disease	D002908
+29295289	185	201	chronic diseases	Disease	D002908
+29295289	525	541	chronic diseases	Disease	D002908
+29295289	806	821	Chronic Disease	Disease	D002908
+29295289	900	917	diabetes mellitus	Disease	D003920
+
+abstract21
+Medicial words:8
+29295283|t|Development of a Service-Oriented Sharable Clinical Decision Support System Based on Ontology for Chronic Disease.
+29295283|a|Clinical decision support systems (CDSSs) have been proved as an efficient way to improve health care quality. However, the inflexibility in integrating multiple clinical practice guidelines (multi-CPGs), the mass input workload of patient data, and the difficulty in system sharing become barriers of CDSSs implementation. In this paper, we proposed a framework of CDSS for chronic disease based on ontology and service-oriented architecture (SOA) to improve these defects. We used ontology for knowledge base construction on multi-CPGs integration to overcome their differences as well as reduce the input procedure of patient data by ontology reasoning. Furthermore, we built the CDSS on an SOA structure to provide flexibility in system and data sharing, such that patients could get suggestions from the same system for self-management of chronic disease. A typical case was used to validate the CDSS functions and accuracy. Two clients were developed to illustrate the SOA superiority.
+29295283	98	113	Chronic Disease	Disease	D002908
+29295283	490	505	chronic disease	Disease	D002908
+29295283	959	974	chronic disease	Disease	D002908
+
+abstract22
+Medicial words:6
+29268657|t|Identification and characterization of circular RNAs in the silkworm midgut following Bombyx mori cytoplasmic polyhedrosis virus infection.
+29268657|a|The pathogenesis of Bombyx mori cytoplasmic polyhedrosis virus (BmCPV) infection is unclear, although accumulating evidence indicates that circular RNAs (circRNAs), which act as competing endogenous RNAs or positive regulators, play important roles in regulating gene expression in eukaryotes and, thus, may play a role in BmCPV infections. To explore the expression and biological functions of circRNAs in the silkworm midgut following BmCPV infection, silkworm circRNA expression profiles of normal midgut tissue (control) and BmCPV-infected midgut tissue (test) were determined using high-through sequencing. A total of 9,753 and 7,475circRNAs were detected from the control and test samples, respectively. The two samples shared 6,085 circRNAs, while 646 and 737 circRNAs were expressed specifically in the control and test samples, respectively. A total of 3,638 circRNAs were shown to be differentially expressed, and 400 circRNAs were substantially differentially expressed with a fold-change >=  2.0 (p< 0.05 and a false discover rate < 0.05), of which 294 were up-regulated and 106 were down-regulated following infection. Gene Ontology and Kyoto Encyclopedia of Genes and Genomes pathway enrichment analyses were conducted to determine the principal functions of the substantially differentially regulated genes. circRNA-miRNA interaction networks were constructed based on a correlation analysis between the differentially expressed circRNAs and the nature of their microRNA (miRNA) binding sites. The network inferred that 13 miRNAs interacting with 193 circRNAs were among the 300 most abundant relationships. bmo-miR-3389-5p, bmo-miR-745-3p, and bmo-miR-3262 were related to 30, 34, and 34 circRNAs, respectively. circRNA_8115, circRNA_9444, circRNA_4553, circRNA_0827, and circRNA_6649 contained six, five, four, four, and four miRNA binding sites, respectively. We further found that alternative circularization of circRNAs is a common feature in silkworms and that the junction sites of many silkworm circRNAs are flanked by canonical GT/AG splicing signals. Our study is the first to show the circRNA response to virus infection. Thus, it provides a novel perspective on circRNA-miRNA interactions during BmCPV pathogenesis, and it lays the foundation for future research of the potential roles of circRNAs in BmCPV pathogenesis.
+29268657	60	68	silkworm	Species	7091
+29268657	86	97	Bombyx mori	Species	7091
+29268657	123	138	virus infection	Disease	D015658
+29268657	160	171	Bombyx mori	Species	7091
+29268657	197	202	virus	Species	12081
+29268657	211	220	infection	Disease	D007239
+29268657	551	559	silkworm	Species	7091
+29268657	583	592	infection	Disease	D007239
+29268657	594	602	silkworm	Species	7091
+29268657	1261	1270	infection	Disease	D007239
+29268657	2103	2112	silkworms	Species	7091
+29268657	2149	2157	silkworm	Species	7091
+29268657	2271	2286	virus infection	Disease	D015658
+
+abstract23
+Medicial words:16
+29240831|t|Comparative transcriptome profiling of virulent and non-virulent Trypanosoma cruzi underlines the role of surface proteins during infection.
+29240831|a|Trypanosoma cruzi, the protozoan that causes Chagas disease, has a complex life cycle involving several morphologically and biochemically distinct stages that establish intricate interactions with various insect and mammalian hosts. It has also a heterogeneous population structure comprising strains with distinct properties such as virulence, sensitivity to drugs, antigenic profile and tissue tropism. We present a comparative transcriptome analysis of two cloned T. cruzi strains that display contrasting virulence phenotypes in animal models of infection: CL Brener is a virulent clone and CL-14 is a clone that is neither infective nor pathogenic in in vivo models of infection. Gene expression analysis of trypomastigotes and intracellular amastigotes harvested at 60 and 96 hours post-infection (hpi) of human fibroblasts revealed large differences that reflect the parasite's adaptation to distinct environments during the infection of mammalian cells, including changes in energy sources, oxidative stress responses, cell cycle control and cell surface components. While extensive transcriptome remodeling was observed when trypomastigotes of both strains were compared to 60 hpi amastigotes, differences in gene expression were much less pronounced when 96 hpi amastigotes and trypomastigotes of CL Brener were compared. In contrast, the differentiation of the avirulent CL-14 from 96 hpi amastigotes to extracellular trypomastigotes was associated with considerable changes in gene expression, particularly in gene families encoding surface proteins such as trans-sialidases, mucins and the mucin associated surface proteins (MASPs). Thus, our comparative transcriptome analysis indicates that the avirulent phenotype of CL-14 may be due, at least in part, to a reduced or delayed expression of genes encoding surface proteins that are associated with the transition of amastigotes to trypomastigotes, an essential step in the establishment of the infection in the mammalian host. Confirming the role of members of the trans-sialidase family of surface proteins for parasite differentiation, transfected CL-14 constitutively expressing a trans-sialidase gene displayed faster kinetics of trypomastigote release in the supernatant of infected cells compared to wild type CL-14.
+29240831	65	82	Trypanosoma cruzi	Species	5693
+29240831	130	139	infection	Disease	D007239
+29240831	141	158	Trypanosoma cruzi	Species	5693
+29240831	186	200	Chagas disease	Disease	D014355
+29240831	357	366	mammalian	Species	9606
+29240831	608	616	T. cruzi	Species	5693
+29240831	691	700	infection	Disease	D007239
+29240831	815	824	infection	Disease	D007239
+29240831	934	943	infection	Disease	D007239
+29240831	953	958	human	Species	9606
+29240831	1073	1082	infection	Disease	D007239
+29240831	1086	1095	mammalian	Species	9606
+29240831	2101	2110	infection	Disease	D007239
+29240831	2118	2127	mammalian	Species	9606
+
+abstract24
+Medicial words:17
+29228714|t|Unique expression signatures of circular RNAs in response to DNA tumor virus SV40 infection.
+29228714|a|Circular RNAs (circRNAs), identified as a class of widely expressed endogenous regulatory RNAs, are involved in diverse physiological and pathological processes. However, their role in viral pathogenesis and cellular antiviral response remains unexplored. In this study, a potent DNA tumor virus, simian virus 40 (SV40), was used as a model to investigate the viral influences on cellular circRNA transcriptome. Using RNA-seq, 15,241 putative circRNAs were identified de novo from 5,057 parental genes in monkey kidney-derived Vero cells. The expression of selected circRNAs was confirmed by reverse transcription-polymerase chain reaction and Sanger sequencing. Further analysis showed that most circRNAs comprised multiple exons, and most parental genes produced multiple circRNA isoforms. A total of 134 significantly dysregulated circRNAs, including 103 upregulated and 31 downregulated circRNAs, were found after SV40 infection. Gene ontology and Kyoto Encyclopedia of Genes and Genomes pathway analysis revealed that various cancer-related pathways, including p53 and Wnt pathway, could be affected by SV40 infection via the alteration of the circRNA hosting genes. Moreover, diverse cellular immune pathways, including Toll-like receptor pathway and Janus kinase-signal transducer and activator of transcription pathway, could also be affected by SV40 infection. An integrated circRNA-miRNA-gene analysis suggested the putative function of circRNAs as cellular and viral miRNA decoys to indirectly regulate the gene expression during SV40 infection. This study presented the first comprehensive expression and functional profile of circRNAs in response to SV40 infection, thus providing new insights into the mechanisms of viral pathogenesis and cellular immune response.
+29228714	71	76	virus	Species	12081
+29228714	383	388	virus	Species	12081
+29228714	1124	1130	cancer	Disease	D009369
+29228714	1159	1162	p53	Gene	7157
+
+abstract25
+Medicial words:7
+29202041|t|Global Transcriptome Analysis of Aedes aegypti Mosquitoes in Response to Zika Virus Infection.
+29202041|a|Zika virus (ZIKV) of the Flaviviridae family is a recently emerged mosquito-borne virus that has been implicated in the surge of the number of microcephaly instances in South America. The recent rapid spread of the virus led to its declaration as a global health emergency by the World Health Organization. The virus is transmitted mainly by the mosquito Aedes aegypti, which is also the vector of dengue virus; however, little is known about the interactions of the virus with the mosquito vector. In this study, we investigated the transcriptome profiles of whole A.  aegypti mosquitoes in response to ZIKV infection at 2, 7, and 14  days postinfection using transcriptome sequencing. Results showed changes in the abundance of a large number of transcripts at each time point following infection, with 18 transcripts commonly changed among the three time points. Gene ontology analysis revealed that most of the altered genes are involved in metabolic processes, cellular processes, and proteolysis. In addition, 486 long intergenic noncoding RNAs that were altered upon ZIKV infection were identified. Further, we found changes of a number of potential mRNA target genes correlating with those of altered host microRNAs. The outcomes provide a basic understanding of A.  aegypti responses to ZIKV and help to determine host factors involved in replication or mosquito host antiviral response against the virus. IMPORTANCE Vector-borne viruses pose great risks to human health. Zika virus has recently emerged as a global threat, rapidly expanding its distribution. Understanding the interactions of the virus with mosquito vectors at the molecular level is vital for devising new approaches in inhibiting virus transmission. In this study, we embarked on analyzing the transcriptional response of Aedes aegypti mosquitoes to Zika virus infection. Results showed large changes in both coding and long noncoding RNAs. Analysis of these genes showed similarities with other flaviviruses, including dengue virus, which is transmitted by the same mosquito vector. The outcomes provide a global picture of changes in the mosquito vector in response to Zika virus infection.
+
+abstract26
+Medicial words:3
+29174688|t|Comparative transcriptome analysis reveals induction of apoptosis in chicken kidney cells associated with the virulence of nephropathogenic infectious bronchitis virus.
+29174688|a|Avian infectious bronchitis virus (IBV) that causes respiratory and nephritic diseases in chicken is a major poultry pathogen leading to serious economic loss worldwide. The nephropathogenic IBV strains cause nephritis and kidney lesions intrinsically and the pathogenic mechanism is still unclear. In the present study, SPF chicks were infected with three nephropathogenic IBVs of different virulence and their gene expression profiles in chicken kidney were compared at transcriptome level. As a result, 1279 differentially expressed (DE) genes were found in very virulent SCDY2 inoculated group, 145 in virulent SCK2 group and 74 in non-virulent LDT3-A group when compared to mock infected group. Gene Ontology (GO) and KEGG pathway enrichment analysis on SCDY2 group displayed that the up-regulated DE genes were mainly involved in cell apoptosis, and the down-regulated genes were involved in metabolic processes and DNA replication. Protein-Protein Interaction (PPI) analysis showed that DE genes in SCDY2 group formed a network, and the core of the network was composed by cell apoptosis and immune response proteins. The clustering of gene expression profile among the three virus inoculated groups indicated that the majority of up-regulated DE genes on apoptosis in very virulent SCDY2 group were up-regulated more or less in virulent SCK2 group and those down-regulated on innate immune response in SCDY2 group were also down-regulated differently in SCK2 group. In addition, the number of apoptotic cells detected experimentally in kidney tissue were very different among the three virus inoculated groups and were positively accordant with the viral titer, kidney lesions and viral virulence of each group. Taken all together, the present study revealed that virulent nephropathogenic IBV infection modified a number of gene expression and induction of apoptosis in kidney cells may be a major pathogenic determinant for virulent nephropathogenic IBV.
+29174688	69	76	chicken	Species	9031
+29174688	140	167	infectious bronchitis virus	Species	11120
+29174688	169	207	Avian infectious bronchitis virus (IBV	Species	11120
+29174688	259	266	chicken	Species	9031
+29174688	360	363	IBV	Species	11120
+29174688	609	616	chicken	Species	9031
+29174688	1967	1970	IBV	Species	11120
+29174688	2129	2132	IBV	Species	11120
+
+abstract27
+Medicial words:11
+29169324|t|A post-gene silencing bioinformatics protocol for plant-defence gene validation and underlying process identification: case study of the Arabidopsis thaliana NPR1.
+29169324|a|BACKGROUND: Advances in forward and reverse genetic techniques have enabled the discovery and identification of several plant defence genes based on quantifiable disease phenotypes in mutant populations. Existing models for testing the effect of gene inactivation or genes causing these phenotypes do not take into account eventual uncertainty of these datasets and potential noise inherent in the biological experiment used, which may mask downstream analysis and limit the use of these datasets. Moreover, elucidating biological mechanisms driving the induced disease resistance and influencing these observable disease phenotypes has never been systematically tackled, eliciting the need for an efficient model to characterize completely the gene target under consideration. RESULTS: We developed a post-gene silencing bioinformatics (post-GSB) protocol which accounts for potential biases related to the disease phenotype datasets in assessing the contribution of the gene target to the plant defence response. The post-GSB protocol uses Gene Ontology semantic similarity and pathway dataset to generate enriched process regulatory network based on the functional degeneracy of the plant proteome to help understand the induced plant defence response. We applied this protocol to investigate the effect of the NPR1 gene silencing to changes in Arabidopsis thaliana plants following Pseudomonas syringae pathovar tomato strain DC3000 infection. Results indicated that the presence of a functionally active NPR1 reduced the plant's susceptibility to the infection, with about 99% of variability in Pseudomonas spore growth between npr1 mutant and wild-type samples. Moreover, the post-GSB protocol has revealed the coordinate action of target-associated genes and pathways through an enriched process regulatory network, summarizing the potential target-based induced disease resistance mechanism. CONCLUSIONS: This protocol can improve the characterization of the gene target and, potentially, elucidate induced defence response by more effectively utilizing available phenotype information and plant proteome functional knowledge.
+29169324	137	157	Arabidopsis thaliana	Species	3702
+29169324	158	162	NPR1	Gene	842733
+29169324	284	297	plant defence	Disease	D010939
+29169324	1155	1168	plant defence	Disease	D010939
+29169324	1396	1409	plant defence	Disease	D010939
+29169324	1478	1482	NPR1	Gene	842733
+29169324	1512	1532	Arabidopsis thaliana	Species	3702
+29169324	1550	1570	Pseudomonas syringae	Species	317
+29169324	1571	1610	pathovar tomato strain DC3000 infection	Disease	D007239
+29169324	1673	1677	NPR1	Gene	842733
+29169324	1797	1801	npr1	Gene	842733
+
+abstract28
+Medicial words:14
+29154906|t|Increase in taxonomic assignment efficiency of viral reads in metagenomic studies.
+29154906|a|Metagenomics studies have revolutionized the field of biology by revealing the presence of many previously unisolated and uncultured micro-organisms. However, one of the main problems encountered in metagenomic studies is the high percentage of sequences that cannot be assigned taxonomically using commonly used similarity-based approaches (e.g. BLAST or HMM). These unassigned sequences are allegorically called    dark matter    in the metagenomic literature and are often referred to as being derived from new or unknown organisms. Here, based on published and original metagenomic datasets coming from virus-like particle enriched samples, we present and quantify the improvement of viral taxonomic assignment that is achievable with a new similarity-based approach. Indeed, prior to any use of similarity based taxonomic assignment methods, we propose assembling contigs from short reads as is currently routinely done in metagenomic studies, but then to further map unassembled reads to the assembled contigs. This additional mapping step increases significantly the proportions of taxonomically assignable sequence reads from a variety -plant, insect and environmental (estuary, lakes, soil, feces) - of virome studies.
+29154906	690	695	virus	Species	12081
+
+abstract29
+Medicial words:4
+29138518|t|Predicted molecular targets and pathways for germacrone, curdione, and furanodiene in the treatment of breast cancer using a bioinformatics approach.
+29138518|a|Germacrone, curdione, and furanodiene have been shown to be useful in the treatment of breast cancer but the pharmacological mechanism of action is unclear. In this paper, we explored a new method to study the molecular network and function of Traditional Chinese Medicine (TCM) herbs and their corresponding ingredients with bioinformatics tools, including PubChem Compound Database, BATMAN-TCM, SystemsDock, Coremine Medical, Gene ontology, and KEGG. Eleven targeted genes/proteins, 4 key pathways, and 10 biological processes were identified to participate in the mechanism of action in treating breast cancer with germacrone, curdione, and furanodiene. The information achieved by the bioinformatics tools was useful to interpretation the molecular mechanism for the treatment of germacrone, curdione, and furanodiene on breast cancers.
+29138518	45	55	germacrone	Chemical	C048393
+29138518	57	65	curdione	Chemical	C504126
+29138518	71	82	furanodiene	Chemical	C442489
+29138518	150	160	Germacrone	Chemical	C048393
+29138518	162	170	curdione	Chemical	C504126
+29138518	176	187	furanodiene	Chemical	C442489
+29138518	768	778	germacrone	Chemical	C048393
+29138518	780	788	curdione	Chemical	C504126
+29138518	794	805	furanodiene	Chemical	C442489
+29138518	934	944	germacrone	Chemical	C048393
+29138518	946	954	curdione	Chemical	C504126
+29138518	960	971	furanodiene	Chemical	C442489
+
+abstract30
+Medicial words:15
+29084576|t|Screening and identification of host proteins interacting with Theileria annulata cysteine proteinase (TaCP) by yeast-two-hybrid system.
+29084576|a|BACKGROUND: Theileria annulata can infect monocytes/macrophages and B lymphocytes and causes severe lymphoproliferative disease in ruminants. Meanwhile, infection by T. annulata leads to the permanent proliferation of cell population through regulating signaling pathways of host cells. Cysteine proteinases (CPs) are one kind of protein hydrolase and usually play critical roles in parasite virulence, host invasion, nutrition and host immune response. However, the biological function of T. annulata CP (TaCP) is still unclear. In this study, a yeast-two-hybrid assay was performed to screen host proteins interacting with TaCP, to provide information to help our understanding of the molecular mechanisms between T. annulata and host cells. METHODS: The cDNA from purified bovine B cells was inserted into pGADT7-SfiI vector (pGADT7-SfiI-BcDNA, Prey plasmid) for constructing the yeast two-hybrid cDNA library. TaCP was cloned into the pGBKT7 vector (pGBKT7-TaCP) and was considered as bait plasmid after evaluating the expression, auto-activation and toxicity tests in the yeast strain Y2HGold. The yeast two-hybrid screening was carried out via co-transforming bait and prey plasmids into yeast strain Y2HGold. Sequences of positive preys were analyzed using BLAST, Gene Ontology, UniProt and STRING. RESULTS: Two host proteins, CRBN (Bos taurus cereblon transcript variant X2) and Ppp4C (Bos indicus protein phosphatase 4 catalytic subunit) were identified to interact with TaCP. The results of functional analysis showed that the two proteins were involved in many cellular processes, such as ubiquitylation regulation, microtubule organization, DNA repair, cell apoptosis and maturation of spliceosomal snRNPs. CONCLUSIONS: This study is the first to screen the host proteins of bovine B cells interacting with TaCP, and 2 proteins, CRBN and Ppp4C, were identified using yeast two-hybrid technique. The results of functional analysis suggest that the two proteins are involved in many cellular processes, such as ubiquitylation regulating, microtubule organization, DNA repair, cell apoptosis and maturation of spliceosomal snRNPs. The interaction with CRBN and Ppp4C indicate that TaCP possibly is involved in regulating signaling pathways and cell proliferation, which is helpful for understanding the interaction between T. annulata and host cells.
+29084576	63	81	Theileria annulata	Species	5874
+29084576	103	107	TaCP	Disease	C566991
+29084576	159	178	annulata can infect	Chemical
+29084576	237	264	lymphoproliferative disease	Disease	D008232
+29084576	303	314	T. annulata	Species	215063
+29084576	627	641	T. annulata CP	Disease	C566991
+29084576	643	647	TaCP	Disease	C566991
+29084576	762	766	TaCP	Disease	C566991
+29084576	853	864	T. annulata	Species	215063
+29084576	913	919	bovine	Species	9913
+29084576	1051	1055	TaCP	Disease	C566991
+29084576	1098	1102	TaCP	Disease	C566991
+29084576	1192	1200	toxicity	Disease	D064420
+29084576	1214	1226	yeast strain	Species	4932
+29084576	1331	1343	yeast strain	Species	4932
+29084576	1471	1475	CRBN	Gene	511585
+29084576	1477	1487	Bos taurus	Species	9913
+29084576	1524	1529	Ppp4C	Gene	540398
+29084576	1531	1542	Bos indicus	Species	9915
+29084576	1617	1621	TaCP	Disease	C566991
+29084576	1924	1930	bovine	Species	9913
+29084576	1956	1960	TaCP	Disease	C566991
+29084576	1978	1982	CRBN	Gene	511585
+29084576	1987	1992	Ppp4C	Gene	540398
+29084576	2298	2302	CRBN	Gene	511585
+29084576	2307	2312	Ppp4C	Gene	540398
+29084576	2327	2331	TaCP	Disease	C566991
+29084576	2469	2480	T. annulata	Species	215063
+
+abstract31
+Medicial words:31
+29077208|t|Clinical efficacy of a next-generation sequencing gene panel for primary immunodeficiency diagnostics.
+29077208|a|Primary immunodeficiencies (PIDs) are rare monogenic inborn errors of immunity that result in impairment of functions of the human immune system. PIDs have a broad phenotype with increased morbidity and mortality, and treatment choices are often complex. With increased accessibility of next-generation sequencing (NGS), the rate of discovery of genetic causes for PID has increased exponentially. Identification of an underlying monogenic diagnosis provides important clinical benefits for patients with the potential to alter treatments, facilitate genetic counselling, and pre-implantation diagnostics. We investigated a NGS PID panel of 242 genes within clinical care across a range of PID phenotypes. We also evaluated Phenomizer to predict causal genes from human phenotype ontology (HPO) terms. Twenty-seven participants were recruited, and a total of 15 reportable variants were identified in 48% (13/27) of the participants. The panel results had implications for treatment in 37% (10/27) of participants. Phenomizer identified the genes harbouring variants from HPO terms in 33% (9/27) of participants. This study shows the clinical efficacy that genetic testing has in the care of PID. However, it also highlights some of the disadvantages of gene panels in the rapidly moving field of PID genomics and current challenges in HPO term assignment for PID.
+29077208	65	89	primary immunodeficiency	Disease	D007153
+29077208	103	129	Primary immunodeficiencies	Disease	D007153
+29077208	131	135	PIDs	Disease	D007153
+29077208	156	181	inborn errors of immunity	Disease	D008661
+29077208	228	233	human	Species	9606
+29077208	249	253	PIDs	Disease	D007153
+29077208	468	471	PID	Gene	9219
+29077208	594	602	patients	Species	9606
+29077208	731	734	PID	Gene	9219
+29077208	793	796	PID	Gene	9219
+29077208	867	872	human	Species	9606
+29077208	918	930	participants	Species	9606
+29077208	1023	1035	participants	Species	9606
+29077208	1104	1116	participants	Species	9606
+29077208	1202	1214	participants	Species	9606
+29077208	1295	1298	PID	Gene	9219
+29077208	1400	1403	PID	Gene	9219
+29077208	1463	1466	PID	Gene	9219
+
+abstract32
+Medicial words:21
+29058656|t|Bursal transcriptome profiling of different inbred chicken lines reveals key differentially expressed genes at 3 days post-infection with very virulent infectious bursal disease virus.
+29058656|a|Infectious bursal disease is a highly contagious disease in the poultry industry and causes immunosuppression in chickens. Genome-wide regulations of immune response genes of inbred chickens with different genetic backgrounds, following very virulent infectious bursal disease virus (vvIBDV) infection are poorly characterized. Therefore, this study aims to analyse the bursal tissue transcriptome of six inbred chicken lines 6, 7, 15, N, O and P following infection with vvIBDV strain UK661 using strand-specific next-generation sequencing, by highlighting important genes and pathways involved in the infected chicken during peak infection at 3   days post-infection. All infected chickens succumbed to the infection without major variations among the different lines. However, based on the viral loads and bursal lesion scoring, lines P and 6 can be considered as the most susceptible lines, while lines 15 and N were regarded as the least affected lines. Transcriptome profiling of the bursa identified 4588 genes to be differentially expressed, with 2985 upregulated and 1642 downregulated genes, in which these genes were commonly or uniquely detected in all or several infected lines. Genes that were upregulated are primarily pro-inflammatory cytokines, chemokines and IFN-related. Various genes that are associated with B-cell functions and genes related to apoptosis were downregulated, together with the genes involved in p53 signalling. In conclusion, bursal transcriptome profiles of different inbred lines showed differential expressions of pro-inflammatory cytokines and chemokines, Th1 cytokines, JAK-STAT signalling genes, MAPK signalling genes, and their related pathways following vvIBDV infection.
+29058656	51	58	chicken	Species	9031
+29058656	152	183	infectious bursal disease virus	Species	10995
+29058656	298	306	chickens	Species	9031
+29058656	367	375	chickens	Species	9031
+29058656	436	467	infectious bursal disease virus	Species	10995
+29058656	597	604	chicken	Species	9031
+29058656	624	625	O	Chemical
+29058656	797	804	chicken	Species	9031
+29058656	868	876	chickens	Species	9031
+
+abstract33
+Medicial words:12
+29057124|t|Systems Biology Genetic Approach Identifies Serotonin Pathway as a Possible Target for Obstructive Sleep Apnea: Results from a Literature Search Review.
+29057124|a|RATIONALE: Overall validity of existing genetic biomarkers in the diagnosis of obstructive sleep apnea (OSA) remains unclear. The objective of this systematic genetic study is to identify "novel" biomarkers for OSA using systems biology approach. METHODS: Candidate genes for OSA were extracted from PubMed, MEDLINE, and Embase search engines and DisGeNET database. The gene ontology (GO) analyses and candidate genes prioritization were performed using Enrichr tool. Genes pertaining to the top 10 pathways were extracted and used for Ingenuity Pathway Analysis. RESULTS: In total, we have identified 153 genes. The top 10 pathways associated with OSA include (i) serotonin receptor interaction, (ii) pathways in cancer, (iii) AGE-RAGE signaling in diabetes, (iv) infectious diseases, (v) serotonergic synapse, (vi) inflammatory bowel disease, (vii) HIF-1 signaling pathway, (viii) PI3-AKT signaling pathway, (ix) regulation lipolysis in adipocytes, and (x) rheumatoid arthritis. After removing the overlapping genes, we have identified 23 candidate genes, out of which >30% of the genes were related to the genes involved in the serotonin pathway. Among these 4 serotonin receptors SLC6A4, HTR2C, HTR2A, and HTR1B were strongly associated with OSA. CONCLUSIONS: This preliminary report identifies several potential candidate genes associated with OSA and also describes the possible regulatory mechanisms.
+29057124	44	53	Serotonin	Chemical	D012701
+29057124	232	255	obstructive sleep apnea	Disease	D020181
+29057124	257	260	OSA	Disease	D020181
+29057124	364	367	OSA	Disease	D020181
+29057124	429	432	OSA	Disease	D020181
+29057124	802	805	OSA	Disease	D020181
+29057124	818	827	serotonin	Chemical	D012701
+29057124	867	873	cancer	Disease	D009369
+29057124	903	911	diabetes	Disease	D003920
+29057124	918	937	infectious diseases	Disease	D003141
+29057124	970	996	inflammatory bowel disease	Disease	D015212
+29057124	1004	1009	HIF-1	Gene	3091
+29057124	1036	1039	PI3	Gene	5266
+29057124	1112	1132	rheumatoid arthritis	Disease	D001172
+29057124	1284	1293	serotonin	Chemical	D012701
+29057124	1317	1326	serotonin	Chemical	D012701
+29057124	1337	1343	SLC6A4	Gene	6532
+29057124	1345	1350	HTR2C	Gene	3358
+29057124	1352	1357	HTR2A	Gene	3356
+29057124	1363	1368	HTR1B	Gene	3351
+29057124	1399	1402	OSA	Disease	D020181
+29057124	1502	1505	OSA	Disease	D020181
+
+abstract34
+Medicial words:25
+29028886|t|Analysis of protein targets in pathogen-host interaction in infectious diseases: a case study on Plasmodium falciparum and Homo sapiens interaction network.
+29028886|a|Infection and disease progression is the outcome of protein interactions between pathogen and host. Pathogen, the role player of Infection, is becoming a severe threat to life as because of its adaptability toward drugs and evolutionary dynamism in nature. Identifying protein targets by analyzing protein interactions between host and pathogen is the key point. Proteins with higher degree and possessing some topologically significant graph theoretical measures are found to be drug targets. On the other hand, exceptional nodes may be involved in infection mechanism because of some pathway process and biologically unknown factors. In this article, we attempt to investigate characteristics of host-pathogen protein interactions by presenting a comprehensive review of computational approaches applied on different infectious diseases. As an illustration, we have analyzed a case study on infectious disease malaria, with its causative agent Plasmodium falciparum acting as 'Bait' and host, Homo sapiens/human acting as 'Prey'. In this pathogen-host interaction network based on some interconnectivity and centrality properties, proteins are viewed as central, peripheral, hub and non-hub nodes and their significance on infection process. Besides, it is observed that because of sparseness of the pathogen and host interaction network, there may be some topologically unimportant but biologically significant proteins, which can also act as Bait/Prey. So, functional similarity or gene ontology mapping can help us in this case to identify these proteins.
+29028886	60	79	infectious diseases	Disease	D003141
+29028886	97	118	Plasmodium falciparum	Species	5833
+29028886	123	135	Homo sapiens	Species	9606
+29028886	976	995	infectious diseases	Disease	D003141
+29028886	1050	1076	infectious disease malaria	Disease	D003141
+29028886	1103	1124	Plasmodium falciparum	Species	5833
+29028886	1152	1164	Homo sapiens	Species	9606
+29028886	1165	1170	human	Species	9606
+
+abstract35
+Medicial words:11
+28958989|t|An Ontology to Improve Transparency in Case Definition and Increase Case Finding of Infectious Intestinal Disease: Database Study in English General Practice.
+28958989|a|BACKGROUND: Infectious intestinal disease (IID) has considerable health impact; there are 2 billion cases worldwide resulting in 1 million deaths and 78.7 million disability-adjusted life years lost. Reported IID incidence rates vary and this is partly because terms such as "diarrheal disease" and "acute infectious gastroenteritis" are used interchangeably. Ontologies provide a method of transparently comparing case definitions and disease incidence rates. OBJECTIVE: This study sought to show how differences in case definition in part account for variation in incidence estimates for IID and how an ontological approach provides greater transparency to IID case finding. METHODS: We compared three IID case definitions: (1) Royal College of General Practitioners Research and Surveillance Centre (RCGP RSC) definition based on mapping to the Ninth International Classification of Disease (ICD-9), (2) newer ICD-10 definition, and (3) ontological case definition. We calculated incidence rates and examined the contribution of four supporting concepts related to IID: symptoms, investigations, process of care (eg, notification to public health authorities), and therapies. We created a formal ontology using ontology Web language. RESULTS: The ontological approach identified 5712 more cases of IID than the ICD-10 definition and 4482 more than the RCGP RSC definition from an initial cohort of 1,120,490. Weekly incidence using the ontological definition was 17.93/100,000 (95% CI 15.63-20.41), whereas for the ICD-10 definition the rate was 8.13/100,000 (95% CI 6.70-9.87), and for the RSC definition the rate was 10.24/100,000 (95% CI 8.55-12.12). Codes from the four supporting concepts were generally consistent across our three IID case definitions: 37.38% (3905/10,448) (95% CI 36.16-38.5) for the ontological definition, 38.33% (2287/5966) (95% CI 36.79-39.93) for the RSC definition, and 40.82% (1933/4736) (95% CI 39.03-42.66) for the ICD-10 definition. The proportion of laboratory results associated with a positive test result was 19.68% (546/2775). CONCLUSIONS: The standard RCGP RSC definition of IID, and its mapping to ICD-10, underestimates disease incidence. The ontological approach identified a larger proportion of new IID cases; the ontology divides contributory elements and enables transparency and comparison of rates. Results illustrate how improved diagnostic coding of IID combined with an ontological approach to case definition would provide a clearer picture of IID in the community, better inform GPs and public health services about circulating disease, and empower them to respond. We need to improve the Pathology Bounded Code List (PBCL) currently used by laboratories to electronically report results. Given advances in stool microbiology testing with a move to nonculture, PCR-based methods, the way microbiology results are reported and coded via PBCL needs to be reviewed and modernized.
+28958989	84	113	Infectious Intestinal Disease	Disease	D007410
+28958989	171	200	Infectious intestinal disease	Disease	D007410
+28958989	202	205	IID	Disease	D007410
+28958989	368	371	IID	Disease	D007410
+28958989	435	452	diarrheal disease	Disease	D004403
+28958989	465	491	infectious gastroenteritis	Disease	D005759
+28958989	749	752	IID	Disease	D007410
+28958989	818	821	IID	Disease	D007410
+28958989	863	866	IID	Disease	D007410
+28958989	1072	1089	ICD-10 definition	Disease	252500
+28958989	1227	1230	IID	Disease	D007410
+28958989	1460	1463	IID	Disease	D007410
+28958989	1473	1490	ICD-10 definition	Disease	252500
+28958989	1677	1694	ICD-10 definition	Disease	252500
+28958989	1899	1902	IID	Disease	D007410
+28958989	2110	2127	ICD-10 definition	Disease	252500
+28958989	2277	2280	IID	Disease	D007410
+28958989	2406	2409	IID	Disease	D007410
+28958989	2563	2566	IID	Disease	D007410
+28958989	2659	2662	IID	Disease	D007410
+
+abstract36
+Medicial words:23
+28953426|t|A proteomic analysis of the differentially expressed proteins in the intracranial Angiostrongylus cantonensis larvae in permissive and non-permissive hosts.
+28953426|a|Angiostrongylus cantonensis infection can lead to severe neuropathological damages caused by their development in the central nervous system (CNS) after penetrating the blood-brain barrier (BBB). They commonly cause eosinophilic meningitis or meningoencephalitis (EM) in non-permissive hosts (e.g., mice). It has been shown that differences exist in the brains of permissive and non-permissive hosts during the larval development of A. cantonensis, however, the mechanism underlying the difference is not completely understood. This study analyzed and characterized the differentially expressed proteins in the intracranial A. cantonensis larvae in rats (ILR) and mice (ILM) brains by proteomics. We found that 29 proteins were differentially expressed. Among these, 12 were highly expressed in ILR, while the remaining 17 proteins were highly expressed in ILM. Three protein spots were homologous to the actin-2, actin-1, and disorganized muscle protein 1 (dim-1) of C. elegans. In addition, proteomic analyses revealed that act-1 and act-2 were up-regulated in ILM compared to ILR, whereas dim-1 was down-regulated in ILM. Annotation using Gene Ontology revealed that act-1; act-2 and dim-1 were mainly associated with "ATP catabolic process" and "ATP binding". Quantitative real-time PCR (qPCR) analyses of act-1 and dim-1 using the first internal transcribed spacers of A. cantonensis 18S rRNA was consistent with 2-DE and the sizes of these parasites, ILR was longer and wider than ILM. These results indicate that the differentially expressed proteins, dim-1 and act-1, could be related to the development and pathogenicity of A. cantonensis in different hosts.
+28953426	82	109	Angiostrongylus cantonensis	Species	6313
+28953426	157	184	Angiostrongylus cantonensis	Species	6313
+28953426	456	460	mice	Species	10090
+28953426	806	810	rats	Species	10116
+28953426	821	825	mice	Species	10090
+28953426	1062	1069	actin-2	Gene	179534
+28953426	1071	1078	actin-1	Gene	179535
+28953426	1084	1113	disorganized muscle protein 1	Gene	181062
+28953426	1115	1120	dim-1	Gene	181062
+28953426	1125	1135	C. elegans	Species	6239
+28953426	1249	1254	dim-1	Gene	181062
+28953426	1344	1349	dim-1	Gene	181062
+28953426	1379	1382	ATP	Chemical	D000255
+28953426	1407	1410	ATP	Chemical	D000255
+28953426	1477	1482	dim-1	Gene	181062
+28953426	1716	1721	dim-1	Gene	181062
+
+abstract37
+Medicial words:19
+28912500|t|Dynamic Changes in the Splenic Transcriptome of Chickens during the Early Infection and Progress of Marek's Disease.
+28912500|a|Gallid alphaherpesvirus 2 (GaHV2) is an oncogenic avian herpesvirus inducing Marek's disease (MD) and rapid-onset T-cell lymphomas. To reveal molecular events in MD pathogenesis and tumorigenesis, the dynamic splenic transcriptome of GaHV2-infected chickens during early infection and pathogenic phases has been determined utilizing RNA-seq. Based on the significant differentially expressed genes (DEGs), analysis of gene ontology, KEGG pathway and protein-protein interaction network has demonstrated that the molecular events happening during GaHV2 infection are highly relevant to the disease course. In the 'Cornell Model' description of MD, innate immune responses and inflammatory responses were established at early cytolytic phase but persisted until lymphoma formation. Humoral immunity in contrast began to play a role firstly in the intestinal system and started at late cytolytic phase. Neurological damage caused by GaHV2 is first seen in early cytolytic phase and is then sustained throughout the following phases over a long time period. During the proliferative phase many pathways associated with transcription and/or translation were significantly enriched, reflecting the cell transformation and lymphoma formation. Our work provides an overall view of host responses to GaHV2 infection and offers a meaningful basis for further studies of MD biology.
+28912500	100	115	Marek's Disease	Disease	D008380
+28912500	194	209	Marek's disease	Disease	D008380
+28912500	211	213	MD	Disease	D008380
+28912500	231	247	T-cell lymphomas	Disease	D016399
+28912500	279	281	MD	Disease	D008380
+28912500	318	397	dynamic splenic transcriptome of GaHV2-infected chickens during early infection	Disease	D007239
+28912500	760	762	MD	Disease	D008380
+28912500	764	787	innate immune responses	Disease	D007154
+28912500	877	885	lymphoma	Disease	D008223
+28912500	1017	1036	Neurological damage	Disease	D009422
+28912500	1333	1341	lymphoma	Disease	D008223
+28912500	1477	1479	MD	Disease	D008380
+
+abstract38
+Medicial words:15
+28899396|t|Transcriptomic meta-analysis identifies gene expression characteristics in various samples of HIV-infected patients with nonprogressive disease.
+28899396|a|BACKGROUND: A small proportion of HIV-infected patients remain clinically and/or immunologically stable for years, including elite controllers (ECs) who have undetectable viremia (<50 copies/ml) and long-term nonprogressors (LTNPs) who maintain normal CD4+ T cell counts for prolonged periods (>10  years). However, the mechanism of nonprogression needs to be further resolved. In this study, a transcriptome meta-analysis was performed on nonprogressor and progressor microarray data to identify differential transcriptome pathways and potential biomarkers. METHODS: Using the INMEX (integrative meta-analysis of expression data) program, we performed the meta-analysis to identify consistently differentially expressed genes (DEGs) in nonprogressors and further performed functional interpretation (gene ontology analysis and pathway analysis) of the DEGs identified in the meta-analysis. Five microarray datasets (81 cases and 98 controls in total), including whole blood, CD4+ and CD8+ T cells, were collected for meta-analysis. RESULTS: We determined that nonprogressors have reduced expression of important interferon-stimulated genes (ISGs), CD38, lymphocyte activation gene 3 (LAG-3) in whole blood, CD4+ and CD8+ T cells. Gene ontology (GO) analysis showed a significant enrichment in DEGs that function in the type I interferon signaling pathway. Upregulated pathways, including the PI3K-Akt signaling pathway in whole blood, cytokine-cytokine receptor interaction in CD4+ T cells and the MAPK signaling pathway in CD8+ T cells, were identified in nonprogressors compared with progressors. In each metabolic functional category, the number of downregulated DEGs was more than the upregulated DEGs, and almost all genes were downregulated DEGs in the oxidative phosphorylation (OXPHOS) and tricarboxylic acid (TCA) cycle in the three types of samples. CONCLUSIONS: Our transcriptomic meta-analysis provides a comprehensive evaluation of the gene expression profiles in major blood types of nonprogressors, providing new insights in the understanding of HIV pathogenesis and developing strategies to delay HIV disease progression.
+28899396	94	97	HIV	Species	11709
+28899396	107	115	patients	Species	9606
+28899396	179	182	HIV	Species	11709
+28899396	192	200	patients	Species	9606
+28899396	1294	1298	CD38	Gene	952
+28899396	1300	1328	lymphocyte activation gene 3	Gene	3902
+28899396	1330	1335	LAG-3	Gene	3902
+28899396	1944	1962	tricarboxylic acid	Chemical	CHEBI:27093
+28899396	1964	1967	TCA	Chemical	CHEBI:30956
+28899396	2207	2210	HIV	Species	11709
+28899396	2259	2262	HIV	Species	11709
+
+abstract39
+Medicial words:14
+28886691|t|Impaired response of the bronchial epithelium to inflammation characterizes severe equine asthma.
+28886691|a|BACKGROUND: Severe equine asthma is a naturally occurring lung inflammatory disease of mature animals characterized by neutrophilic inflammation, bronchoconstriction, mucus hypersecretion and airway remodeling. Exacerbations are triggered by inhalation of dust and microbial components. Affected animals eventually are unable of aerobic performance. In this study transcriptomic differences between asthmatic and non-asthmatic animals in the response of the bronchial epithelium to an inhaled challenge were determined. RESULTS: Paired endobronchial biopsies were obtained pre- and post-challenge from asthmatic and non-asthmatic animals. The transcriptome, determined by RNA-seq and analyzed with edgeR, contained 111 genes differentially expressed (DE) after challenge between horses with and without asthma, and 81 of these were upregulated. Genes involved in neutrophil migration and activation were in central location in interaction networks, and related gene ontology terms were significantly overrepresented. Relative abundance of specific gene products as determined by immunohistochemistry was correlated with differential gene expression. Gene sets involved in neutrophil chemotaxis, immune and inflammatory response, secretion, blood coagulation and apoptosis were overrepresented among up-regulated genes, while the rhythmic process gene set was overrepresented among down-regulated genes. MMP1, IL8, TLR4 and MMP9 appeared to be the most important proteins in connecting the STRING protein network of DE genes. CONCLUSIONS: Several differentially expressed genes and networks in horses with asthma also contribute to human asthma, highlighting similarities between severe human adult and equine asthma. Neutrophil activation by the bronchial epithelium is suggested as the trigger of the inflammatory cascade in equine asthma, followed by epithelial injury and impaired repair and differentiation. Circadian rhythm dysregulation and the sonic Hedgehog pathway were identified as potential novel contributory factors in equine asthma.
+28886691	49	61	inflammation	Disease	D007249
+28886691	83	89	equine	Species	9796
+28886691	90	96	asthma	Disease	D001249
+28886691	117	123	equine	Species	9796
+28886691	124	130	asthma	Disease	D001249
+28886691	217	242	neutrophilic inflammation	Disease	D007249
+28886691	877	883	horses	Species	9796
+28886691	901	907	asthma	Disease	D001249
+28886691	1338	1355	blood coagulation	Disease	D001778
+28886691	1501	1505	MMP1	Gene	100034145
+28886691	1507	1510	IL8	Gene	100037400
+28886691	1512	1516	TLR4	Gene	100066890
+28886691	1521	1525	MMP9	Gene	100056599
+28886691	1691	1697	horses	Species	9796
+28886691	1703	1709	asthma	Disease	D001249
+28886691	1729	1734	human	Species	9606
+28886691	1735	1741	asthma	Disease	D001249
+28886691	1784	1789	human	Species	9606
+28886691	1800	1806	equine	Species	9796
+28886691	1807	1813	asthma	Disease	D001249
+28886691	1924	1930	equine	Species	9796
+28886691	1931	1937	asthma	Disease	D001249
+28886691	1951	1968	epithelial injury	Disease	D014947
+28886691	2131	2137	equine	Species	9796
+28886691	2138	2144	asthma	Disease	D001249
+
+abstract40
+Medicial words:28
+28814335|t|Comparative transcriptome analysis of second- and third-generation merozoites of Eimeria necatrix.
+28814335|a|BACKGROUND: Eimeria is a common genus of apicomplexan parasites that infect diverse vertebrates, most notably poultry, causing serious disease and economic losses. Eimeria species have complex life-cycles consisting of three developmental stages. However, the molecular basis of the Eimeria reproductive mode switch remains an enigma. METHODS: Total RNA extracted from second- (MZ-2) and third-generation merozoites (MZ-3) of Eimeria necatrix was subjected to transcriptome analysis using RNA sequencing (RNA-seq) followed by qRT-PCR validation. RESULTS: A total of 6977 and 6901 unigenes were obtained from MZ-2 and MZ-3, respectively. Approximately 2053 genes were differentially expressed genes (DEGs) between MZ-2 and MZ-3. Compared with MZ-2, 837 genes were upregulated and 1216 genes were downregulated in MZ-3. Approximately 95 genes in MZ-2 and 48 genes in MZ-3 were further identified to have stage-specific expression. Gene ontology category and KEGG analysis suggested that 216 upregulated genes in MZ-2 were annotated by 70 GO assignments, 242 upregulated genes were associated with 188 signal pathways, while 321 upregulated genes in MZ-3 were annotated by 56 GO assignments, 322 upregulated genes were associated with 168 signal pathways. The molecular functions of upregulated genes in MZ-2 were mainly enriched for protein degradation and amino acid metabolism. The molecular functions of upregulated genes in MZ-3 were mainly enriched for transcriptional activity, cell proliferation and cell differentiation. CONCLUSIONS: To the best of our knowledge, this is the first RNA-seq data study of the MZ-2 and MZ-3 stages of E. necatrix; it demonstrates a high number of differentially expressed genes between the MZ-2 and MZ-3 of E. necatrix. This study forms a basis for deciphering the molecular mechanisms underlying the shift from the second to third generation schizogony in Eimeria. It also provides valuable resources for future studies on Eimeria, and provides insight into the understanding of reproductive mode plasticity in different Eimeria species.
+28814335	716	720	MZ-3	Chemical
+28814335	1454	1464	amino acid	Chemical	D000596
+
+abstract41
+Medicial words:5
+28784113|t|An extensible framework and database of infectious disease for biosurveillance.
+28784113|a|Biosurveillance, a relatively young field, has recently increased in importance because of increasing emphasis on global health. Databases and tools describing particular subsets of disease are becoming increasingly common in the field. Here, we present an infectious disease database that includes diseases of biosurveillance relevance and an extensible framework for the easy expansion of the database.
+
+abstract42
+Medicial words:3
+28779232|t|MicroRNA transcriptome analysis in chicken kidneys in response to differing virulent infectious bronchitis virus infections.
+28779232|a|Infectious bronchitis virus (IBV) can cause a highly contagious and acute respiratory disease in poultry. MicroRNAs (miRNAs) have emerged as a class of crucial regulators for gene expression and are involved in the regulation of virus defence and immunological processes. To understand miRNA regulation in chickens in response to IBV infection, high-throughput sequencing was performed to compare the small RNA libraries from the kidneys of chicken infected with SCK2, SCDY2 and LDT3-A. By comparing these data to healthy chickens, a total of 58 differentially expressed (DE) miRNAs were identified. The DE miRNAs were further classified into five miRNA expression patterns (up or down regulation compared to control). Using Gene Ontology (GO) enrichment prediction, the DE miRNAs were shown to be mostly associated with metabolic processes, catalytic activities, gene expression, binding activities and immune responses. Seven highly expressed miRNAs (gga-miR-30d, gga-miR-1454, gga-miR-7b, gga-miR-215-5p, gga-miR-1a-3p, gga-miR-3538 and gga-miR-2954) were selected for miRNA-mRNA conjoint analysis. Furthermore, the miRNAs inversely correlated with the corresponding target gene mRNAs. These seven miRNAs were considered to play an important role in IBV-host interactions and the differing virulence of IBV strains. This is the first demonstration that infection with different virulent IBVs elicits different expression of miRNAs in chicken kidneys; this expression also seems to be associated with the virulence of IBV. These results are significant for the study of immune responses to infection with different virulent IBVs mediated by miRNAs as well as the interaction between the chicken host and IBV.
+28779232	35	42	chicken	Species	9031
+28779232	76	123	virulent infectious bronchitis virus infections	Disease	D015658
+28779232	125	152	Infectious bronchitis virus	Disease	D015658
+28779232	154	157	IBV	Disease	D015658
+28779232	199	218	respiratory disease	Disease	D012131
+28779232	431	439	chickens	Species	9031
+28779232	455	458	IBV	Disease	D015658
+28779232	459	468	infection	Disease	D007239
+28779232	566	573	chicken	Species	9031
+28779232	647	655	chickens	Species	9031
+28779232	1378	1381	IBV	Disease	D015658
+28779232	1431	1434	IBV	Disease	D015658
+28779232	1481	1490	infection	Disease	D007239
+28779232	1562	1569	chicken	Species	9031
+28779232	1645	1648	IBV	Disease	D015658
+28779232	1717	1726	infection	Disease	D007239
+28779232	1814	1821	chicken	Species	9031
+28779232	1831	1834	IBV	Disease	D015658
+
+abstract43
+Medicial words:21
+28721309|t|Retinal Pigment Epithelial Cells are a Potential Reservoir for Ebola Virus in the Human Eye.
+28721309|a|PURPOSE: Success of Ebola virus (EBOV) as a human pathogen relates at the molecular level primarily to blockade the host cell type I interferon (IFN) antiviral response. Most individuals who survive Ebola virus disease (EVD) develop a chronic disease syndrome: approximately one-quarter of survivors suffer from uveitis, which has been associated with presence of EBOV within the eye. Clinical observations of post-Ebola uveitis indicate involvement of retinal pigment epithelial cells. METHODS: We inoculated ARPE-19 human retinal pigment epithelial cells with EBOV, and followed course of infection by immunocytochemistry and measurement of titer in culture supernatant. To interrogate transcriptional responses of infected cells, we combined RNA sequencing with in silico pathway, gene ontology, transcription factor binding site, and network analyses. We measured infection-induced changes of selected transcripts by reverse transcription-quantitative polymerase chain reaction. RESULTS: Human retinal pigment epithelial cells were permissive to infection with EBOV, and supported viral replication and release of virus in high titer. Unexpectedly, 28% of 560 upregulated transcripts in EBOV-infected cells were type I IFN responsive, indicating a robust type I IFN response. Following EBOV infection, cells continued to express multiple immunomodulatory molecules linked to ocular immune privilege. CONCLUSIONS: Human retinal pigment epithelial cells may serve as an intraocular reservoir for EBOV, and the molecular response of infected cells may contribute to the persistence of live EBOV within the human eye. TRANSLATIONAL RELEVANCE: This bedside-to-bench research links ophthalmic findings in survivors of EVD who suffer from uveitis with interactions between retinal pigment epithelial cells and EBOV.
+28721309	82	87	Human	Species	9606
+28721309	102	124	Success of Ebola virus	Disease	D019142
+28721309	137	142	human	Species	9606
+28721309	292	311	Ebola virus disease	Disease	D019142
+28721309	313	316	EVD	Disease	D019142
+28721309	328	352	chronic disease syndrome	Disease	D002908
+28721309	405	412	uveitis	Disease	D014605
+28721309	514	521	uveitis	Disease	D014605
+28721309	546	553	retinal	Chemical	D012172
+28721309	603	610	ARPE-19	Species	9606
+28721309	611	616	human	Species	9606
+28721309	684	693	infection	Disease	D007239
+28721309	961	970	infection	Disease	D007239
+28721309	1085	1090	Human	Species	9606
+28721309	1143	1152	infection	Disease	D007239
+28721309	1388	1397	infection	Disease	D007239
+28721309	1510	1515	Human	Species	9606
+28721309	1700	1705	human	Species	9606
+28721309	1809	1812	EVD	Disease	D019142
+28721309	1829	1836	uveitis	Disease	D014605
+
+abstract44
+Medicial words:23
+28694792|t|Context Is Everything: Harmonization of Critical Food Microbiology Descriptors and Metadata for Improved Food Safety and Surveillance.
+28694792|a|Globalization of food networks increases opportunities for the spread of foodborne pathogens beyond borders and jurisdictions. High resolution whole-genome sequencing (WGS) subtyping of pathogens promises to vastly improve our ability to track and control foodborne disease, but to do so it must be combined with epidemiological, clinical, laboratory and other health care data (called "contextual data") to be meaningfully interpreted for regulatory and health interventions, outbreak investigation, and risk assessment. However, current multi-jurisdictional pathogen surveillance and investigation efforts are complicated by time-consuming data re-entry, curation and integration of contextual information owing to a lack of interoperable standards and inconsistent reporting. A solution to these challenges is the use of 'ontologies' - hierarchies of well-defined and standardized vocabularies interconnected by logical relationships. Terms are specified by universal IDs enabling integration into highly regulated areas and multi-sector sharing (e.g., food and water microbiology with the veterinary sector). Institution-specific terms can be mapped to a given standard at different levels of granularity, maximizing comparability of contextual information according to jurisdictional policies. Fit-for-purpose ontologies provide contextual information with the auditability required for food safety laboratory accreditation. Our research efforts include the development of a Genomic Epidemiology Ontology (GenEpiO), and Food Ontology (FoodOn) that harmonize important laboratory, clinical and epidemiological data fields, as well as existing food resources. These efforts are supported by a global consortium of researchers and stakeholders worldwide. Since foodborne diseases do not respect international borders, uptake of such vocabularies will be crucial for multi-jurisdictional interpretation of WGS results and data sharing.
+28694792	391	408	foodborne disease	Disease	D005517
+28694792	1898	1916	foodborne diseases	Disease	D005517
+
+abstract45
+Medicial words:5
+28680659|t|Proteomic profiling of archaeological human bone.
+28680659|a|Ancient protein analysis provides clues to human life and diseases from ancient times. Here, we performed shotgun proteomics of human archeological bones for the first time, using rib bones from the Hitotsubashi site (AD 1657-1683) in Tokyo, called Edo in ancient times. The output data obtained were analysed using Gene Ontology and label-free quantification. We detected leucocyte-derived proteins, possibly originating from the bone marrow of the rib. Particularly prevalent and relatively high expression of eosinophil peroxidase suggests the influence of infectious diseases. This scenario is plausible, considering the overcrowding and unhygienic living conditions of the Edo city described in the historical literature. We also observed age-dependent differences in proteome profiles, particularly for proteins involved in developmental processes. Among them, alpha-2-HS-glycoprotein demonstrated a strong negative correlation with age. These results suggest that analysis of ancient proteins could provide a useful indicator of stress, disease, starvation, obesity and other kinds of physiological and pathological information.
+28680659	38	43	human	Species	9606
+28680659	93	98	human	Species	9606
+28680659	178	183	human	Species	9606
+28680659	562	583	eosinophil peroxidase	Gene	8288
+28680659	610	629	infectious diseases	Disease	D003141
+28680659	1115	1122	obesity	Disease	D009765
+
+abstract46
+Medicial words:9
+28676255|t|An ontology-based approach to patient follow-up assessment for continuous and personalized chronic disease management.
+28676255|a|OBJECTIVE: Chronic diseases are complex and persistent clinical conditions that require close collaboration among patients and health care providers in the implementation of long-term and integrated care programs. However, current solutions focus partially on intensive interventions at hospitals rather than on continuous and personalized chronic disease management. This study aims to fill this gap by providing computerized clinical decision support during follow-up assessments of chronically ill patients at home. METHODS: We proposed an ontology-based framework to integrate patient data, medical domain knowledge, and patient assessment criteria for chronic disease patient follow-up assessments. A clinical decision support system was developed to implement this framework for automatic selection and adaptation of standard assessment protocols to suit patient personal conditions. We evaluated our method in the case study of type 2 diabetic patient follow-up assessments. RESULTS: The proposed framework was instantiated using real data from 115,477 follow-up assessment records of 36,162 type 2 diabetic patients. Standard evaluation criteria were automatically selected and adapted to the particularities of each patient. Assessment results were generated as a general typing of patient overall condition and detailed scoring for each criterion, providing important indicators to the case manager about possible inappropriate judgments, in addition to raising patient awareness of their disease control outcomes. Using historical data as the gold standard, our system achieved a rate of accuracy of 99.93% and completeness of 95.00%. CONCLUSIONS: This study contributes to improving the accessibility, efficiency and quality of current patient follow-up services. It also provides a generic approach to knowledge sharing and reuse for patient-centered chronic disease management.
+28676255	30	37	patient	Species	9606
+28676255	91	106	chronic disease	Disease	D002908
+28676255	130	146	Chronic diseases	Disease	D002908
+28676255	233	241	patients	Species	9606
+28676255	459	474	chronic disease	Disease	D002908
+28676255	620	628	patients	Species	9606
+28676255	700	707	patient	Species	9606
+28676255	744	751	patient	Species	9606
+28676255	776	791	chronic disease	Disease	D002908
+28676255	792	799	patient	Species	9606
+28676255	980	987	patient	Species	9606
+28676255	1061	1069	diabetic	Disease	D003920
+28676255	1070	1077	patient	Species	9606
+28676255	1225	1233	diabetic	Disease	D003920
+28676255	1234	1242	patients	Species	9606
+28676255	1344	1351	patient	Species	9606
+28676255	1410	1417	patient	Species	9606
+28676255	1591	1598	patient	Species	9606
+28676255	1867	1874	patient	Species	9606
+28676255	1966	1973	patient	Species	9606
+28676255	1983	1998	chronic disease	Disease	D002908
+
+abstract47
+Medicial words:24
+28671602|t|Mechanism Investigation of Rifampicin-Induced Liver Injury Using Comparative Toxicoproteomics in Mice.
+28671602|a|Tuberculosis is one of the top causes of death among curable infectious diseases; it is an airborne infectious disease that killed 1.1 million people worldwide in 2010. Anti-tuberculosis drug-induced liver injury is the primary cause of drug-induced liver injury (DILI). Rifampicin is one of the most common anti-tuberculosis therapies and has well-known hepatotoxicity. To understand the mechanism of rifampicin-induced liver injury, we performed a global proteomic analysis of liver proteins by LC-MS/MS in a mouse model after the oral administration of 177 and 442.5 mg/kg rifampicin (LD<sub>10</sub>and LD<sub>25</sub>) for 14 days. Based on the biochemical parameters in the plasma after rifampicin treatment, the hepatotoxic effect of rifampicin in the mouse liver was defined as a mixed liver injury. In the present study, we identified 1101 proteins and quantified 1038 proteins. A total of 29 and 40 proteins were up-regulated and 27 and 118 proteins were down-regulated in response to 177 and 442.5 mg/kg rifampicin, respectively. Furthermore, we performed Gene Ontology (GO) and Kyoto Encyclopedia of Genes and Genomes (KEGG) pathway enrichment analyses to characterize the mechanism of rifampicin-induced hepatotoxicity. In the molecular function category, glutathione transferase activity was up-regulated and proteins related to arachidonic acid metabolism were down-regulated. In the KEGG pathway enrichment-based clustering analysis, the peroxisome proliferator-activated receptor-y (PPARy) signaling pathway, cytochrome P450, glutathione metabolism, chemical carcinogenesis, and related proteins increased dose-dependently in rifampicin-treated livers. Taken together, this study showed in-depth molecular mechanism of rifampicin-induced liver injury by comparative toxicoproteomics approach.
+28671602	27	37	Rifampicin	Chemical	D012293
+28671602	46	58	Liver Injury	Disease	D056486
+28671602	97	101	Mice	Species	10090
+28671602	103	115	Tuberculosis	Disease	D014376
+28671602	144	149	death	Disease	D003643
+28671602	164	183	infectious diseases	Disease	D003141
+28671602	246	252	people	Species	9606
+28671602	277	289	tuberculosis	Disease	D014376
+28671602	290	315	drug-induced liver injury	Disease	D056486
+28671602	340	365	drug-induced liver injury	Disease	D056486
+28671602	367	371	DILI	Disease	D056486
+28671602	374	384	Rifampicin	Chemical	D012293
+28671602	416	428	tuberculosis	Disease	D014376
+28671602	505	515	rifampicin	Chemical	D012293
+28671602	524	536	liver injury	Disease	D056486
+28671602	603	605	MS	Disease	D009103
+28671602	606	608	MS	Disease	D009103
+28671602	614	619	mouse	Species	10090
+28671602	679	689	rifampicin	Chemical	D012293
+28671602	796	806	rifampicin	Chemical	D012293
+28671602	844	854	rifampicin	Chemical	D012293
+28671602	862	867	mouse	Species	10090
+28671602	897	909	liver injury	Disease	D056486
+28671602	1118	1128	rifampicin	Chemical	D012293
+28671602	1301	1311	rifampicin	Chemical	D012293
+28671602	1372	1383	glutathione	Chemical	D005978
+28671602	1446	1462	arachidonic acid	Chemical	D016718
+28671602	1557	1601	peroxisome proliferator-activated receptor-y	Gene	5468
+28671602	1646	1657	glutathione	Chemical	D005978
+28671602	1679	1693	carcinogenesis	Disease	D063646
+28671602	1746	1756	rifampicin	Chemical	D012293
+28671602	1839	1849	rifampicin	Chemical	D012293
+28671602	1858	1870	liver injury	Disease	D056486
+
+abstract48
+Medicial words:36
+28637587|t|Comparative study on secretome and transmembranome of immature and mature metacestodes of Echinococcus multilocularis.
+28637587|a|Alveolar echinococcosis (AE) is a worldwide zoonosis caused by E. multilocularis. Humans become infected through oral ingestion of the eggs. Host of E. multilocularis produces immune responses that help to either reject and/or limit the growth of this parasite, and in response the parasite produces molecules against this immune attack. This study identifies candidate key molecules in the early infection phase and the chronic stage of the parasite infestation, through comparison of gene expression of 4- and 16-week metacestodes. First, RNA was isolated from 4- and 16-weeks metacestodes of E. multilocularis (Nemuro strain). Thereafter, clean reads with lengths of 50bp or longer were compared against a reference genome using TopHat. Functional annotation of transcripts of E. multilocularis were investigated using multi-step bioinformatics tools. At the gene ontology (GO) level, 356 and 1774 transmembrane (TM) predicted proteins of the E. multilocularis were mapped to an enhanced 'hydrolase activity' and increased 'transmembrane transporter activity', respectively. In addition, comparison of gene expression level between 4- and 16-week metacestode revealed 168 different expression (DE) genes. This study has demonstrated that, the expression levels of predicted ES and TM proteins in E. multilocularis change in the transformation from one stage to another. Genes that are highly expressed in immature or mature metacestode could be explored as novel candidates for diagnostic antigens and vaccine targets.
+28637587	90	117	Echinococcus multilocularis	Species	6211
+28637587	119	142	Alveolar echinococcosis	Disease	C536591
+28637587	144	146	AE	Disease	C536591
+28637587	182	199	E. multilocularis	Species	6211
+28637587	201	207	Humans	Species	9606
+28637587	268	285	E. multilocularis	Species	6211
+28637587	570	581	infestation	Disease	D013984
+28637587	714	731	E. multilocularis	Species	6211
+28637587	899	916	E. multilocularis	Species	6211
+28637587	1065	1082	E. multilocularis	Species	6211
+28637587	1418	1435	E. multilocularis	Species	6211
+
+abstract49
+Medicial words:14
+28555042|t|The Cytotoxicity of the Ajoene Analogue BisPMB in WHCO1 Oesophageal Cancer Cells Is Mediated by CHOP/GADD153.
+28555042|a|Garlic is a food and medicinal plant that has been used in folk medicine since ancient times for its beneficial health effects, which include protection against cancer. Crushed garlic cloves contain an array of small sulfur-rich compounds such as ajoene. Ajoene is able to interfere with biological processes and is cytotoxic to cancer cells in the low micromolar range. BisPMB is a synthetic ajoene analogue that has been shown in our laboratory to have superior cytotoxicity to ajoene. In the current study we have performed a DNA microarray analysis of bisPMB-treated WHCO1 oesophageal cancer cells to identify pathways and processes that are affected by bisPMB. The most significantly enriched biological pathways as assessed by gene ontology, KEGG and ingenuity pathway analysis were those involving protein processing in the endoplasmic reticulum (ER) and the unfolded protein response. In support of these pathways, bisPMB was found to inhibit global protein synthesis and lead to increased levels of ubiquitinated proteins. BisPMB also induced alternate splicing of the transcription factor XBP-1; increased the expression of the ER stress sensor GRP78 and induced expression of the ER stress marker CHOP/GADD153. CHOP expression was found to be central to the cytotoxicity of bisPMB as its silencing with siRNA rendered the cells resistant to bisPMB. The MAPK proteins, JNK and ERK1/2 were activated following bisPMB treatment. However JNK activation was not critical in the cytotoxicity of bisPMB, and ERK1/2 activation was found to play a pro-survival role. Overall the ajoene analogue bisPMB appears to induce cytotoxicity in WHCO1 cells by activating the unfolded protein response through CHOP/GADD153.
+28555042	4	16	Cytotoxicity	Disease	D064420
+28555042	24	30	Ajoene	Chemical	C048980
+28555042	96	100	CHOP	Gene	1649
+28555042	101	108	GADD153	Gene	1649
+28555042	271	277	cancer	Disease	D009369
+28555042	327	333	sulfur	Chemical	D013455
+28555042	357	363	ajoene	Chemical	C048980
+28555042	365	371	Ajoene	Chemical	C048980
+28555042	439	445	cancer	Disease	D009369
+28555042	503	509	ajoene	Chemical	C048980
+28555042	574	586	cytotoxicity	Disease	D064420
+28555042	590	596	ajoene	Chemical	C048980
+28555042	687	705	oesophageal cancer	Disease	D009369
+28555042	1033	1039	bisPMB	Chemical
+28555042	1209	1214	XBP-1	Gene	7494
+28555042	1265	1270	GRP78	Gene	3309
+28555042	1318	1322	CHOP	Gene	1649
+28555042	1323	1330	GADD153	Gene	1649
+28555042	1332	1336	CHOP	Gene	1649
+28555042	1379	1391	cytotoxicity	Disease	D064420
+28555042	1489	1492	JNK	Gene	5599
+28555042	1497	1503	ERK1/2	Gene	5595;5594
+28555042	1555	1558	JNK	Gene	5599
+28555042	1594	1606	cytotoxicity	Disease	D064420
+28555042	1622	1628	ERK1/2	Gene	5595;5594
+28555042	1691	1697	ajoene	Chemical	C048980
+28555042	1732	1744	cytotoxicity	Disease	D064420
+28555042	1812	1816	CHOP	Gene	1649
+28555042	1817	1824	GADD153	Gene	1649
+
+abstract50
+Medicial words:32
+
+Process finished with exit code 0
