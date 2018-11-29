@@ -1,0 +1,2 @@
+A,like,B SYMMETRIC TO B,like,A
+B,like,A SYMMETRIC TO A,like,B

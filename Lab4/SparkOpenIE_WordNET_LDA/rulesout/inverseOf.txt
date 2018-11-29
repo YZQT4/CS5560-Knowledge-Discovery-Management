@@ -1,0 +1,2 @@
+A,like,B INVERSE TO B,love,A
+B,love,A INVERSE TO A,like,B
